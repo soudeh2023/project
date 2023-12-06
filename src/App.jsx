@@ -9,7 +9,9 @@ import BabyÄlter from "./Componenten/BabyÄlter";
 import PageReciept from "./Componenten/PageReciept";
 import PageÜberuns from "./Componenten/PageÜberUns";
 import Navbar from "./Componenten/Navbar";
+
 import "./App.css";
+import RecieptZeite from "./Componenten/RecieptZeite";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +29,7 @@ function App() {
           <Route path="/FertigEssen" Component={FertigEssen} />
           <Route path="/warenkorb" Component={PageWarenkorb} />
           <Route path="/product/:id" Component={PageProduct} />
+          <Route path="/RecieptZeite/" Component={RecieptZeite} />
         </Routes>
       </BrowserRouter>
     </>

@@ -7,14 +7,14 @@ function ErsteSEite() {
   return (
     <>
       <div>
-        <button onclick=""> 0-3Monaten</button>
-        <button onclick=""> 6-3Monaten</button>
-        <button onclick=""> 6-9Monaten</button>
-        <button onclick=""> 9-12Monaten</button>
+        <Link><button onclick=""> 0-3Monaten</button></Link>
+        <Link><button onclick=""> 6-3Monaten</button></Link>
+        <Link><button onclick=""> 6-9Monaten</button></Link>
+        <Link><button onclick=""> 9-12Monaten</button></Link>
       </div>
       <div className="allekategorie">
-        <button>Gesund Reciepie</button>
-        <button>Fertig Essen</button>
+        <Link><button>Gesund Reciepie</button></Link>
+        <Link><button>Fertig Essen</button></Link>
       </div>
       <div className="allergitig">
         <button>allergitig</button>

@@ -3,32 +3,46 @@ nav {
   display: flex;
   flex-direction: row;
   height: 80px;
+  gap: 14rem;
+  align-items: center;
+  justify-content: space-between;
 }
-nav .ImgNavbar {
+nav .Navbar-picture {
   height: 50px;
-  weight: 60px;
-  margin-top: 100px;
-  margin-left: 50px;
+  margin-top: 7px;
+  margin-left: 8px;
+}
+nav .Navbar-logo-text {
+  text-align: center;
+  padding: 0;
+  margin: 1px;
+  font-size: 0.7rem;
+  text-decoration-style: wavy;
 }
 nav ul {
   list-style: none;
   display: flex;
+  gap: 1rem;
 }
-nav li {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 3rem;
-  color: black;
-  height: 20px;
+nav li .Navbarpar {
+  /* padding-top:  10rem; */
+  color: rgba(103, 0, 77, 0.344);
 }
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.75rem;
   transition: 0.3s;
 }
 nav a:hover {
   transition: 0.3s;
   color: rgba(54, 5, 60, 0.403);
   font-size: 1.1rem;
+}
+.Navbar-logo {
+  height: 50px;
+}
+
+.navbar-inner {
+  display: flex;
 }
