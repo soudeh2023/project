@@ -1,12 +1,14 @@
 import { useState } from "react";
+import "./PageHome.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>Klein Kinder && Gesund Essen</h1>
-      <p>
+    < >
+    <section>
+      <h1 className="PageHomeh1">Klein Kinder && Gesund Essen</h1>
+      <p className="PageHomepar">
         Die Ernährung von Kindern unter einem Jahr ist von entscheidender
         Bedeutung, da sie in dieser Phase rapide wachsen und sich entwickeln.
         Hier sind einige allgemeine Richtlinien für die Ernährung von Kindern
@@ -44,6 +46,7 @@ function App() {
         zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres Kindes
         den spezifischen Anforderungen entspricht.
       </p>
+      </section>
     </>
   );
 }
