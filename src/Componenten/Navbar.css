@@ -6,6 +6,8 @@ nav {
   gap: 14rem;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
+  margin: 0;
 }
 nav .Navbar-picture {
   height: 50px;
@@ -41,6 +43,9 @@ nav a:hover {
 }
 .Navbar-logo {
   height: 50px;
+}
+.LogInButton {
+  color: rgba(113, 89, 135, 0.499);
 }
 
 .navbar-inner {

@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -6,7 +6,34 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
 import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
+import AnmeldungSeite from "./AnmeldungSeite";
+
 function Navbar() {
+  const [user, setUser] = useState({ isLoggedIn: false });
+
+  function login() {
+    const updatedUser = { ...user, isLoggedIn: true };
+
+    setUser(JSON.parse(JSON.stringify(updatedUser)));
+
+    localStorage.setItem("localUser", JSON.stringify(updatedUser));
+  }
+
+  function logout() {
+    const updatedUser = { ...user, isLoggedIn: false };
+    setUser(JSON.parse(JSON.stringify(updatedUser)));
+
+    localStorage.setItem("localUser", JSON.stringify({ isLoggedIn: false }));
+    np;
+  }
+  useEffect(() => {
+    const localUser = localStorage.getItem("localUser");
+
+    if (localUser) {
+      setUser(JSON.parse(localUser));
+    }
+  }, []);
+
   return (
     <nav>
       <div className="Navbar-logo">
@@ -25,7 +52,7 @@ function Navbar() {
 
       <ul>
         <li>
-          <Link to="/Warenkorb" >
+          <Link to="/Warenkorb">
             <ShoppingCartIcon />
           </Link>
         </li>
@@ -36,8 +63,20 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/Login">
-            <AccountCircleTwoToneIcon />
+          <Link to="/Login" className="LogInButton">
+            {!user.isLoggedIn && (
+              <button onClick={login}>
+                <AccountCircleTwoToneIcon />
+              </button>
+            )}
+            {user.isLoggedIn && (
+              <>
+                <Link>
+                  <AnmeldungSeite /> {user.username ? user.username : "zurück"}
+                </Link>
+                <button onClick={logout}>Logout</button>
+              </>
+            )}
           </Link>
         </li>
         <li>

@@ -9,6 +9,8 @@ import BabyÄlter from "./Componenten/BabyÄlter";
 import PageReciept from "./Componenten/PageReciept";
 import PageÜberuns from "./Componenten/PageÜberUns";
 import Navbar from "./Componenten/Navbar";
+import AnmeldungSeite from "./Componenten/AnmeldungSeite";
+
 
 import "./App.css";
 import RecieptZeite from "./Componenten/RecieptZeite";
@@ -30,6 +32,7 @@ function App() {
           <Route path="/warenkorb" Component={PageWarenkorb} />
           <Route path="/product/:id" Component={PageProduct} />
           <Route path="/RecieptZeite/" Component={RecieptZeite} />
+          <Route path="/AnmeldungSeite/" Component={AnmeldungSeite} />
         </Routes>
       </BrowserRouter>
     </>
