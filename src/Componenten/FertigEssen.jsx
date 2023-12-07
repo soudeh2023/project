@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function FertigEssen() {
   return (
@@ -14,7 +15,8 @@ function FertigEssen() {
         perspiciatis dicta rem cum blanditiis impedit provident atque vero quod
         aspernatur.
       </p>
-      ;
+      <Link to="/EndePage">Gehe zur and Seite</Link>
+      <Link to="/PageReciept">back</Link>
     </div>
   );
 }

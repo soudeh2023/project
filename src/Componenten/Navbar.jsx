@@ -6,7 +6,7 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
 import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
-import AnmeldungSeite from "./AnmeldungSeite";
+import AnmeldungSeite from "./login";
 
 function Navbar() {
   const [user, setUser] = useState({ isLoggedIn: false });
@@ -71,9 +71,6 @@ function Navbar() {
             )}
             {user.isLoggedIn && (
               <>
-                <Link>
-                  <AnmeldungSeite /> {user.username ? user.username : "zurück"}
-                </Link>
                 <button onClick={logout}>Logout</button>
               </>
             )}
