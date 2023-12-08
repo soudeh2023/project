@@ -1,0 +1,704 @@
+[
+  {
+    "id": 1,
+    "name": "Gemüsebrei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/gemusebrei.jpg",
+    "description": "Ein Gemüsebrei für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kartoffeln", "Karotten", "Erbsen"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2,
+      "carbohydrates": 15,
+      "fat": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "Fruchtpüree",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/fruchtpuree.jpg",
+    "description": "Ein Fruchtpüree für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Äpfel", "Bananen", "Birnen"],
+    "nutritional_info": {
+      "calories": 70,
+      "protein": 1,
+      "carbohydrates": 18,
+      "fat": 0.5
+    }
+  },
+  {
+    "id": 3,
+    "name": "Reisbrei mit Milch",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/reisbrei.jpg",
+    "description": "Ein Reisbrei mit Milch für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Reis", "Milch", "Vanille"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 3,
+      "carbohydrates": 20,
+      "fat": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hirsebällchen",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/hirseballchen.jpg",
+    "description": "Hirsebällchen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Hirse", "Bananen", "Kokosöl"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2.5,
+      "carbohydrates": 17,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 5,
+    "name": "Bio-Gemüsemix",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/bio-gemusemix.jpg",
+    "description": "Ein Bio-Gemüsemix für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Bio-Karotten", "Bio-Zucchini", "Bio-Kartoffeln"],
+    "nutritional_info": {
+      "calories": 75,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 6,
+    "name": "Haferflockenbrei mit Beeren",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/haferflockenbrei.jpg",
+    "description": "Ein Haferflockenbrei mit Beeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Blaubeeren", "Himbeeren"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2.5,
+      "carbohydrates": 18,
+      "fat": 1.3
+    }
+  },
+  {
+    "id": 7,
+    "name": "Geflügelbrei mit Kartoffeln",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/geflugelbrei.jpg",
+    "description": "Ein Geflügelbrei mit Kartoffeln für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Hühnerfleisch", "Kartoffeln", "Karotten"],
+    "nutritional_info": {
+      "calories": 95,
+      "protein": 3.5,
+      "carbohydrates": 16,
+      "fat": 2.2
+    }
+  },
+  {
+    "id": 8,
+    "name": "Quinoa mit Gemüse",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/quinoa.jpg",
+    "description": "Quinoa mit Gemüse für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Quinoa", "Brokkoli", "Tomaten"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 3,
+      "carbohydrates": 17,
+      "fat": 1.8
+    }
+  },
+  {
+    "id": 9,
+    "name": "Buchweizenpfannkuchen",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/buchweizenpfannkuchen.jpg",
+    "description": "Buchweizenpfannkuchen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Buchweizenmehl", "Äpfel", "Zimt"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2.5,
+      "carbohydrates": 15,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 10,
+    "name": "Linsensuppe mit Gemüse",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/linsensuppe.jpg",
+    "description": "Eine Linsensuppe mit Gemüse für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Linsen", "Sellerie", "Karotten"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 3,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  }
+]
+[
+  {
+    "id": 11,
+    "name": "Banane & Avocado Brei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/banane_avocado_brei.jpg",
+    "description": "Ein köstlicher Brei aus Bananen und Avocado für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Banane", "Avocado", "Haferflocken"],
+    "nutritional_info": {
+      "calories": 75,
+      "protein": 1.5,
+      "carbohydrates": 20,
+      "fat": 1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Joghurt mit Beeren",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/joghurt_beeren.jpg",
+    "description": "Fruchtiger Joghurt mit gemischten Beeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Naturjoghurt", "Heidelbeeren", "Himbeeren"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2,
+      "carbohydrates": 15,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 13,
+    "name": "Mango-Brokkoli Püree",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/mango_brokkoli_puree.jpg",
+    "description": "Ein mildes Püree aus Mango und Brokkoli für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Mango", "Brokkoli", "Reis"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2.5,
+      "carbohydrates": 18,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 14,
+    "name": "Spinat-Kartoffel Auflauf",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/spinat_kartoffel_auflauf.jpg",
+    "description": "Ein gesunder Auflauf aus Spinat und Kartoffeln für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Frischer Spinat", "Kartoffeln", "Käse"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 3,
+      "carbohydrates": 16,
+      "fat": 2
+    }
+  },
+  {
+    "id": 15,
+    "name": "Erdbeer-Haferflocken Riegel",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/erdbeer_haferflocken_riegel.jpg",
+    "description": "Gesunde Haferflocken Riegel mit frischen Erdbeeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Erdbeeren", "Honig"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 18,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 16,
+    "name": "Kürbis-Süßkartoffel Mash",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/kurbis_susskartoffel_mash.jpg",
+    "description": "Ein cremiges Mash aus Kürbis und Süßkartoffeln für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kürbis", "Süßkartoffeln", "Butter"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 1.5,
+      "carbohydrates": 20,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 17,
+    "name": "Griechischer Joghurt mit Pfirsich",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/griechischer_joghurt_pfirsich.jpg",
+    "description": "Griechischer Joghurt mit frischen Pfirsichen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Griechischer Joghurt", "Pfirsiche", "Honig"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 18,
+    "name": "Tomaten-Pasta Fingerfood",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/tomaten_pasta_fingerfood.jpg",
+    "description": "Leckeres Fingerfood aus Tomaten und Pasta für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Vollkorn-Pasta", "Tomaten", "Parmesan"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 3,
+      "carbohydrates": 15,
+      "fat": 2.2
+    }
+  },
+  {
+    "id": 19,
+    "name": "Blaubeer-Haferkekse",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/blaubeer_haferkekse.jpg",
+    "description": "Zarte Haferkekse mit frischen Blaubeeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Blaubeeren", "Butter"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2,
+      "carbohydrates": 18,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 20,
+    "name": "Avocado-Himbeer Smoothie",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/avocado_himbeer_smoothie.jpg",
+    "description": "Ein erfrischender Smoothie aus Avocado und Himbeeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Avocado", "Himbeeren", "Joghurt"],
+    "nutritional_info": {
+      "calories": 75,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.2
+    }
+  }
+]
+[
+  {
+    "id": 21,
+    "name": "Süßkartoffel-Karotten Püree",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/susskartoffel_karotten_puree.jpg",
+    "description": "Ein zartes Püree aus Süßkartoffeln und Karotten für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Süßkartoffeln", "Karotten", "Olivenöl"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 1.5,
+      "carbohydrates": 20,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 22,
+    "name": "Bananenpfannkuchen",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/bananenpfannkuchen.jpg",
+    "description": "Luftige Pfannkuchen mit Bananen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Mehl", "Bananen", "Ei"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2,
+      "carbohydrates": 15,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 23,
+    "name": "Brokkoli-Cremesuppe",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/brokkoli_cremesuppe.jpg",
+    "description": "Eine sanfte Cremesuppe aus Brokkoli für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Brokkoli", "Kartoffeln", "Gemüsebrühe"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 2.5,
+      "carbohydrates": 18,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 24,
+    "name": "Apfel-Zimt Brei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/apfel_zimt_brei.jpg",
+    "description": "Ein wohlschmeckender Brei aus Äpfeln und Zimt für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Äpfel", "Haferflocken", "Zimt"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 18,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 25,
+    "name": "Papaya-Joghurt Becher",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/papaya_joghurt_becher.jpg",
+    "description": "Ein erfrischender Joghurt-Becher mit frischer Papaya für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Naturjoghurt", "Papaya", "Honig"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2.5,
+      "carbohydrates": 15,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 26,
+    "name": "Karotten-Reis Bällchen",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/karotten_reis_ballchen.jpg",
+    "description": "Kleine Bällchen aus Karotten und Reis für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Karotten", "Reis", "Ei"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 27,
+    "name": "Melonenmix Smoothie",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/melonenmix_smoothie.jpg",
+    "description": "Ein erfrischender Smoothie mit verschiedenen Melonen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Wassermelone", "Honigmelone", "Cantaloupe"],
+    "nutritional_info": {
+      "calories": 75,
+      "protein": 1.5,
+      "carbohydrates": 20,
+      "fat": 1
+    }
+  },
+  {
+    "id": 28,
+    "name": "Kartoffel-Apfel Brei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/kartoffel_apfel_brei.jpg",
+    "description": "Ein sanfter Brei aus Kartoffeln und Äpfeln für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kartoffeln", "Äpfel", "Zimt"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 1.5,
+      "carbohydrates": 18,
+      "fat": 1
+    }
+  },
+  {
+    "id": 29,
+    "name": "Pflaumen-Haferriegel",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/pflaumen_haferriegel.jpg",
+    "description": "Haferriegel mit getrockneten Pflaumen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Pflaumen", "Honig"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 30,
+    "name": "Birnen-Vollkornmuffins",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/birnen_vollkornmuffins.jpg",
+    "description": "Gesunde Vollkornmuffins mit frischen Birnen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Vollkornmehl", "Birnen", "Joghurt"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2,
+      "carbohydrates": 15,
+      "fat": 1.5
+    }
+  }
+]
+[
+  {
+    "id": 31,
+    "name": "Aprikosen-Haferbrei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/aprikosen_haferbrei.jpg",
+    "description": "Ein süßer Haferbrei mit getrockneten Aprikosen für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Aprikosen", "Milch"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 18,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 32,
+    "name": "Zucchini-Nudeln mit Tomatensauce",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/zucchini_nudeln_tomatensauce.jpg",
+    "description": "Gesunde Zucchini-Nudeln mit frischer Tomatensauce für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Zucchini", "Vollkornnudeln", "Tomaten"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 3,
+      "carbohydrates": 16,
+      "fat": 2
+    }
+  },
+  {
+    "id": 33,
+    "name": "Erdnussbutter-Bananen Brotstücke",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/erdnussbutter_bananen_brotstucke.jpg",
+    "description": "Brotstücke mit Erdnussbutter und Bananenbelag für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Vollkornbrot", "Erdnussbutter", "Bananen"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2.5,
+      "carbohydrates": 18,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 34,
+    "name": "Kartoffel-Karotten Rösti",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/kartoffel_karotten_rosti.jpg",
+    "description": "Knusprige Rösti aus Kartoffeln und Karotten für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kartoffeln", "Karotten", "Olivenöl"],
+    "nutritional_info": {
+      "calories": 90,
+      "protein": 2,
+      "carbohydrates": 15,
+      "fat": 2.5
+    }
+  },
+  {
+    "id": 35,
+    "name": "Mangold-Quinoa Bowl",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/mangold_quinoa_bowl.jpg",
+    "description": "Eine nährstoffreiche Bowl mit Mangold und Quinoa für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Quinoa", "Mangold", "Tomaten"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 3,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 36,
+    "name": "Heidelbeer-Haferbrei",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/heidelbeer_haferbrei.jpg",
+    "description": "Ein köstlicher Haferbrei mit frischen Heidelbeeren für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Heidelbeeren", "Milch"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 18,
+      "fat": 1.2
+    }
+  },
+  {
+    "id": 37,
+    "name": "Petersilien-Kartoffelstampf",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/petersilien_kartoffelstampf.jpg",
+    "description": "Ein geschmackvoller Kartoffelstampf mit frischer Petersilie für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kartoffeln", "Petersilie", "Butter"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 1.5,
+      "carbohydrates": 18,
+      "fat": 1
+    }
+  },
+  {
+    "id": 38,
+    "name": "Kokosmilch-Haferriegel",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/kokosmilch_haferriegel.jpg",
+    "description": "Haferriegel mit Kokosmilch für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Haferflocken", "Kokosmilch", "Honig"],
+    "nutritional_info": {
+      "calories": 85,
+      "protein": 2,
+      "carbohydrates": 16,
+      "fat": 1.5
+    }
+  },
+  {
+    "id": 39,
+    "name": "Quark mit Himbeerpüree",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/quark_himbeerpuree.jpg",
+    "description": "Quark mit frischem Himbeerpüree für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Quark", "Himbeeren", "Honig"],
+    "nutritional_info": {
+      "calories": 80,
+      "protein": 2.5,
+      "carbohydrates": 15,
+      "fat": 1
+    }
+  },
+  {
+    "id": 40,
+    "name": "Spargel-Kartoffelpüree",
+    "age_group": "0-1 Jahre",
+    "image_url": "https://example.com/spargel_kartoffelpuree.jpg",
+    "description": "Zartes Kartoffelpüree mit Spargel für Babys von 0 bis 1 Jahr.",
+    "ingredients": ["Kartoffeln", "Spargel", "Milch"],
+    "nutritional_info": {
+      "calories": 85,
+    }
+    [
+      {
+        "id": 41,
+        "name": "Blaubeer-Bananen Pancakes",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/blaubeer_bananen_pancakes.jpg",
+        "description": "Luftige Pancakes mit Blaubeeren und Bananen für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Mehl", "Blaubeeren", "Bananen"],
+        "nutritional_info": {
+          "calories": 80,
+          "protein": 2,
+          "carbohydrates": 15,
+          "fat": 1.5
+        }
+      },
+      {
+        "id": 42,
+        "name": "Gurken-Dill Fingerfood",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/gurken_dill_fingerfood.jpg",
+        "description": "Erfrischendes Fingerfood mit Gurken und Dill für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Gurken", "Frühlingszwiebeln", "Dill"],
+        "nutritional_info": {
+          "calories": 75,
+          "protein": 1.5,
+          "carbohydrates": 18,
+          "fat": 1
+        }
+      },
+      {
+        "id": 43,
+        "name": "Pfirsich-Hafermuffins",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/pfirsich_hafermuffins.jpg",
+        "description": "Saftige Hafermuffins mit frischen Pfirsichen für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Haferflocken", "Pfirsiche", "Joghurt"],
+        "nutritional_info": {
+          "calories": 80,
+          "protein": 2,
+          "carbohydrates": 15,
+          "fat": 1.5
+        }
+      },
+      {
+        "id": 44,
+        "name": "Rote-Bete-Quark Dip",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/rote_bete_quark_dip.jpg",
+        "description": "Ein cremiger Quark-Dip mit frischer Rote Bete für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Quark", "Rote Bete", "Knoblauch"],
+        "nutritional_info": {
+          "calories": 70,
+          "protein": 2.5,
+          "carbohydrates": 16,
+          "fat": 1
+        }
+      },
+      {
+        "id": 45,
+        "name": "Butternut-Kürbis Brei",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/butternut_kurbis_brei.jpg",
+        "description": "Ein samtiger Brei aus Butternut-Kürbis für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Butternut-Kürbis", "Reis", "Milch"],
+        "nutritional_info": {
+          "calories": 85,
+          "protein": 2,
+          "carbohydrates": 18,
+          "fat": 1.2
+        }
+      },
+      {
+        "id": 46,
+        "name": "Paprika-Hummus Snack",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/paprika_hummus_snack.jpg",
+        "description": "Ein würziger Hummus-Snack mit Paprika für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Kichererbsen", "Paprika", "Olivenöl"],
+        "nutritional_info": {
+          "calories": 80,
+          "protein": 2,
+          "carbohydrates": 15,
+          "fat": 1.5
+        }
+      },
+      {
+        "id": 47,
+        "name": "Buchweizen-Pfirsich Brei",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/buchweizen_pfirsich_brei.jpg",
+        "description": "Ein nahrhafter Brei aus Buchweizen und Pfirsichen für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Buchweizenmehl", "Pfirsiche", "Mandelmilch"],
+        "nutritional_info": {
+          "calories": 85,
+          "protein": 2.5,
+          "carbohydrates": 18,
+          "fat": 1.2
+        }
+      },
+      {
+        "id": 48,
+        "name": "Blumenkohl-Kartoffel Püree",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/blumenkohl_kartoffel_puree.jpg",
+        "description": "Ein zartes Püree aus Blumenkohl und Kartoffeln für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Blumenkohl", "Kartoffeln", "Butter"],
+        "nutritional_info": {
+          "calories": 80,
+          "protein": 1.5,
+          "carbohydrates": 18,
+          "fat": 1
+        }
+      },
+      {
+        "id": 49,
+        "name": "Haferflocken-Birnen Riegel",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/haferflocken_birnen_riegel.jpg",
+        "description": "Gesunde Haferflocken Riegel mit frischen Birnen für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Haferflocken", "Birnen", "Honig"],
+        "nutritional_info": {
+          "calories": 80,
+          "protein": 2,
+          "carbohydrates": 18,
+          "fat": 1.5
+        }
+      },
+      {
+        "id": 50,
+        "name": "Möhren-Ingwer Suppe",
+        "age_group": "0-1 Jahre",
+        "image_url": "https://example.com/mohren_ingwer_suppe.jpg",
+        "description": "Eine wärmende Suppe aus Möhren und Ingwer für Babys von 0 bis 1 Jahr.",
+        "ingredients": ["Möhren", "Ingwer", "Gemüsebrühe"],
+        "nutritional_info": {
+          "calories": 90,
+          "protein": 2.5,
+          "carbohydrates": 16,
+          "fat": 1.2
+        }
+    

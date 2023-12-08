@@ -1,0 +1,10 @@
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Container-einkaufDb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

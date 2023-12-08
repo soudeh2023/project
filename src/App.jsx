@@ -34,6 +34,7 @@ function App() {
           <Route path="/Contact/" Component={PageContact} />
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/EndePage/" Component={EndePage} />
+          
         </Routes>
       </BrowserRouter>
     </>

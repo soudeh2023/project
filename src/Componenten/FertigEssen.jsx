@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./FertigEssen.css";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
 function FertigEssen() {
   return (
@@ -15,6 +17,21 @@ function FertigEssen() {
         perspiciatis dicta rem cum blanditiis impedit provident atque vero quod
         aspernatur.
       </p>
+      <div className="Container-einkaufDb">
+        <div>
+          <img className="Product-picture" src="./images/logo3.jpg" alt="" />
+          <p></p>
+          <bottun onClick>
+            {/* const WarenKorb=(e) =>    {
+              let WarenKorbBisher=
+              Json.pars(LoclaStorage.getItem("WarenKorb"))
+              LocalStorage.setItem("WarenKorb",[...WarenKorbBishor,e])
+            } */}
+
+            <ShoppingCartIcon />
+          </bottun>
+        </div>
+      </div>
       <Link to="/EndePage">Gehe zur and Seite</Link>
       <Link to="/PageReciept">back</Link>
     </div>
