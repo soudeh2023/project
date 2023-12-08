@@ -3,8 +3,8 @@ import "./PageHome.css";
 
 function PageHome() {
   return (
-    <>
-      <section>
+    
+        <section>
         <h1 className="PageHomeh1">Klein Kinder && Gesund Essen</h1>
         <p className="PageHomepar">
           Die Ernährung von Kindern unter einem Jahr ist von entscheidender
@@ -47,7 +47,6 @@ function PageHome() {
         </p>
         <Link to="/BabyCategorie">Gehe zur and Seite</Link>
       </section>
-    </>
   );
 }
 

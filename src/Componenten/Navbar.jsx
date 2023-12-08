@@ -58,7 +58,7 @@ function Navbar() {
         </li>
 
         <li>
-          <Link to="/Home">
+          <Link to="/PageHome">
             <CottageRoundedIcon />
           </Link>
         </li>
@@ -77,7 +77,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/ContactUs">
+          <Link to="/PageÜberuns">
             <PointOfSaleIcon />
           </Link>
         </li>
