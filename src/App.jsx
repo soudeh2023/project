@@ -27,14 +27,13 @@ function App() {
           <Route path="PageÜberUns" Component={PageÜberuns} />
           <Route path="/BabyCategorie" Component={BabyCategorie} />
           <Route path="/PageReciept" Component={PageReciept} />
-          <Route path="/FertigEssen" Component={FertigEssen} />
+          <Route path="/fertigessen" Component={FertigEssen} />
           <Route path="/WarenKorb" Component={WarenKorbPage} />
           <Route path="/product/:id" Component={PageProduct} />
           <Route path="/login/" Component={login} />
           <Route path="/Contact/" Component={PageContact} />
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/EndePage/" Component={EndePage} />
-          
         </Routes>
       </BrowserRouter>
     </>

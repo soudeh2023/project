@@ -4,7 +4,7 @@ import "./login.css";
 function login() {
   return (
   
-    <form>
+    <form className="LoginForm">
       <label>
         <p>Username</p>
         <input type="text" />
@@ -14,7 +14,7 @@ function login() {
         <input type="password" />
       </label>
       <div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="SubmitLoginPage">Submit</button>
       </div>
     </form>
     //wenn submit kommt ein pop up fenster ,dass Hrzlichwillkommen sagt un geht zu kiner  BabyCategorie Seite*/

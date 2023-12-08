@@ -7,7 +7,6 @@ import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
 import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
 
-
 function Navbar() {
   const [user, setUser] = useState({ isLoggedIn: false });
 

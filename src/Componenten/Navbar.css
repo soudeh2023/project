@@ -9,6 +9,15 @@ nav {
   padding: 1rem;
   margin: 0;
 }
+nav button {
+  background: none;
+  border: none;
+}
+nav button:hover {
+  transition: 0.7s;
+  shape-outside: margin-box;
+  color: rgba(54, 5, 60, 0.403);
+}
 nav .Navbar-picture {
   height: 50px;
   margin-top: 7px;
@@ -26,20 +35,23 @@ nav ul {
   display: flex;
   gap: 1rem;
 }
-nav li .Navbarpar {
-  /* padding-top:  10rem; */
+nav li {
   color: rgba(103, 0, 77, 0.344);
 }
 nav a {
   text-decoration: none;
   text-transform: uppercase;
+  transition-duration: 0.5s;
   font-size: 0.75rem;
   transition: 0.3s;
+  color: black;
 }
-nav a:hover {
+nav a,
+button:hover {
   transition: 0.3s;
   color: rgba(54, 5, 60, 0.403);
   font-size: 1.1rem;
+  size: 10px;
 }
 .Navbar-logo {
   height: 50px;
@@ -51,3 +63,11 @@ nav a:hover {
 .navbar-inner {
   display: flex;
 }
+/* nav > ul svg {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+nav > ul svg:hover {
+  height: 2.5rem;
+  width: 2.5rem;
+} */

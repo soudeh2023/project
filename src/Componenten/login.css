@@ -1,2 +1,14 @@
-body {
+.LoginForm {
+  width: 15rem;
+  height: 20rem;
+  border: 2px solid rgba(113, 89, 135, 0.762);
+  background-color: rgba(119, 136, 153, 0.258);
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  margin-left: calc(50% - 7.5rem);
+}
+
+.SubmitLoginPage {
+  margin-top: 2rem;
 }

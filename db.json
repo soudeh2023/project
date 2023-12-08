@@ -1,4 +1,5 @@
-[
+{
+  "data": [
   {
     "id": 1,
     "name": "Gemüsebrei",
@@ -138,9 +139,7 @@
       "carbohydrates": 16,
       "fat": 1.5
     }
-  }
-]
-[
+  },
   {
     "id": 11,
     "name": "Banane & Avocado Brei",
@@ -280,9 +279,7 @@
       "carbohydrates": 16,
       "fat": 1.2
     }
-  }
-]
-[
+  },
   {
     "id": 21,
     "name": "Süßkartoffel-Karotten Püree",
@@ -422,9 +419,7 @@
       "carbohydrates": 15,
       "fat": 1.5
     }
-  }
-]
-[
+  },
   {
     "id": 31,
     "name": "Aprikosen-Haferbrei",
@@ -560,8 +555,11 @@
     "ingredients": ["Kartoffeln", "Spargel", "Milch"],
     "nutritional_info": {
       "calories": 85,
+      "protein": 2.5,
+      "carbohydrates": 15,
+      "fat": 1
     }
-    [
+  },
       {
         "id": 41,
         "name": "Blaubeer-Bananen Pancakes",
@@ -700,5 +698,6 @@
           "protein": 2.5,
           "carbohydrates": 16,
           "fat": 1.2
-        }
+        }}
+      ]}
     

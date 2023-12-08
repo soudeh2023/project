@@ -2,8 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./FertigEssen.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function FertigEssen() {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/data")
+      .then((res) => {
+        // Daten im State speichern
+        setData(res.data);
+      })
+      .catch((error) => {
+        console.error("Fehler beim Abrufen der Daten:", error);
+      });
+  }, []);
+
   return (
     <div>
       FertigEssen
@@ -17,23 +32,27 @@ function FertigEssen() {
         perspiciatis dicta rem cum blanditiis impedit provident atque vero quod
         aspernatur.
       </p>
-      <div className="Container-einkaufDb">
-        <div>
-          <img className="Product-picture" src="./images/logo3.jpg" alt="" />
-          <p></p>
-          <bottun onClick>
-            {/* const WarenKorb=(e) =>    {
-              let WarenKorbBisher=
-              Json.pars(LoclaStorage.getItem("WarenKorb"))
-              LocalStorage.setItem("WarenKorb",[...WarenKorbBishor,e])
-            } */}
-
-            <ShoppingCartIcon />
-          </bottun>
-        </div>
+      <div>
+        <h1>Producten</h1>
+        <ul>
+          {data.map((item) => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
       </div>
-      <Link to="/EndePage">Gehe zur and Seite</Link>
-      <Link to="/PageReciept">back</Link>
+      <div>
+        <div className="Container-einkaufDb">
+          <div>
+            <img className="Product-picture" src="./images/logo3.jpg" alt="" />
+            <p></p>
+            <bottun onClick>
+              <ShoppingCartIcon />
+            </bottun>
+          </div>
+        </div>
+        <Link to="/EndePage">Gehe zur and Seite</Link>
+        <Link to="/PageReciept">back</Link>
+      </div>
     </div>
   );
 }
