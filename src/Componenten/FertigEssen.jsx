@@ -34,15 +34,15 @@ function FertigEssen() {
         perspiciatis dicta rem cum blanditiis impedit provident atque vero quod
         aspernatur.
       </p>
-      <div>
+      <div className="meinListFertigEssen">
         <h1 className="ProductenTitle">Producten</h1>
         <ul className="alleFertigEssen">
           {data2.map((item) => (
             <div className="Karte" key={item.id}>
-               <li>{item.description}</li>
+              <li>{item.description}</li>
               <img className="Product-picture" src={item.image_url} alt="" />
               <li>{item.name}</li>
-             
+
               <bottun className="WarenkorbIconFertigEssen">
                 <ShoppingCartIcon />
               </bottun>
@@ -51,9 +51,9 @@ function FertigEssen() {
           ))}
         </ul>
       </div>
-      <div>
-        <Link to="/EndePage">Gehe zur and Seite</Link>
+      <div className="LinkNächst">
         <Link to="/PageReciept">back</Link>
+        <Link to="linkEndePage">Nächst</Link>
       </div>
     </div>
   );

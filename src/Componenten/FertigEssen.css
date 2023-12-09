@@ -13,25 +13,38 @@ body {
   width: 10rem;
   height: 10rem;
   padding: 2rem;
+  margin: 0.5rem;
+
   background-color: rgba(113, 89, 135, 0.499);
   color: whitesmoke;
   border: 2px solid darkgray;
   border-radius: 0.5rem;
-  margin: 2rem;
   text-align: center;
 }
 
 .alleFertigEssen {
-  padding: 0;
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   border: 2px solid lightgray;
   border-radius: 2rem;
   background-color: darkgray;
   width: 80%;
-}
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+ 
+
 .WarenkorbIconFertigEssen {
   color: rgba(54, 5, 60, 0.403);
+}
+.LinkNächst {
+  color: rgba(113, 89, 135, 0.499);
+  display: flex;
+  gap: 95%;
+  margin: 3rem;
+}
+.LinkNächst a {
+  text-decoration: none;
 }
