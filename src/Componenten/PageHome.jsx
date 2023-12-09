@@ -45,7 +45,7 @@ function PageHome() {
           zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres
           Kindes den spezifischen Anforderungen entspricht.
         </p>
-        <Link to="/BabyCategorie">Gehe zur and Seite</Link>
+        <Link to="/BabyCategorie" className="BabyCategorieLink">Gehe zur and Seite</Link>
       </section>
   );
 }

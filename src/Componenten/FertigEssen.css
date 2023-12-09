@@ -1,10 +1,37 @@
 body {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
 
 .Container-einkaufDb {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+.Karte {
+  width: 10rem;
+  height: 10rem;
+  padding: 2rem;
+  background-color: rgba(113, 89, 135, 0.499);
+  color: whitesmoke;
+  border: 2px solid darkgray;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.alleFertigEssen {
+  padding: 0;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid lightgray;
+  border-radius: 2rem;
+  background-color: darkgray;
+  width: 80%;
+}
+.WarenkorbIconFertigEssen {
+  color: rgba(54, 5, 60, 0.403);
 }
