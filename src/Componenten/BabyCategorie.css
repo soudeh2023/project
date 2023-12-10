@@ -4,10 +4,9 @@
 
 .BabyCategorieDiv {
   text-align: justify;
-  padding: 4rem;
-  line-height: 2rem;
-  margin: 0;
-  padding-top: 0;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  line-height: 3rem;
 }
 
 .BabyCategorieH1 {
@@ -19,11 +18,16 @@
   display: flex;
   gap: 95%;
   margin-top: 0;
+  padding-top: 0;
 }
 .LinkNächst a {
   text-decoration: none;
 }
+.LinkNächst a:hover {
+  color: rgba(113, 89, 135, 0.499);
+}
 .MonateBt {
-  direction: none;
+  line-height: 1.5rem;
   color: rgba(54, 5, 60, 0.618);
+  border: 1px solid rgb(55, 60, 5);
 }
