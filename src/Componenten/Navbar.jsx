@@ -49,23 +49,29 @@ function Navbar() {
         </p>
       </div>
 
-      <ul>
+      <ul className="NavLinks">
         <li>
           <Link to="/PageHome">
-            {/* <CottageRoundedIcon /> */}
-            <p> Home</p>
+            <button>
+              {/* <CottageRoundedIcon /> */}
+              <p> Home</p>
+            </button>
           </Link>
         </li>
         <li>
           <Link to="/PageÜberuns">
-            {/* <PointOfSaleIcon /> */}
-            <p>Plan</p>
+            <button>
+              {/* <PointOfSaleIcon /> */}
+              <p>Plan</p>
+            </button>
           </Link>
         </li>
         <li>
           <Link to="/Warenkorb">
-            {/* <ShoppingCartIcon /> */}
-            <p>FertigEssen</p>
+            <button>
+              {/* <ShoppingCartIcon /> */}
+              <p>FertigEssen</p>
+            </button>
           </Link>
         </li>
         <li>
@@ -77,7 +83,9 @@ function Navbar() {
             )}
             {user.isLoggedIn && (
               <>
-                <button onClick={logout}>Logout</button>
+                <button onClick={logout} className="LogoutBt">
+                  Logout
+                </button>
               </>
             )}
           </Link>
