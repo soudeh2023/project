@@ -51,14 +51,14 @@ function Navbar() {
 
       <ul>
         <li>
-          <Link to="/Warenkorb">
-            <ShoppingCartIcon />
+          <Link to="/PageHome">
+            {/* <CottageRoundedIcon /> */}
+            <p> Home</p>
           </Link>
         </li>
-
         <li>
-          <Link to="/PageHome">
-            <CottageRoundedIcon />
+          <Link to="/PageÜberuns">
+            <PointOfSaleIcon />
           </Link>
         </li>
         <li>
@@ -75,9 +75,10 @@ function Navbar() {
             )}
           </Link>
         </li>
+
         <li>
-          <Link to="/PageÜberuns">
-            <PointOfSaleIcon />
+          <Link to="/Warenkorb">
+            <ShoppingCartIcon />
           </Link>
         </li>
       </ul>

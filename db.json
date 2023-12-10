@@ -4,7 +4,7 @@
     "id": 1,
     "name": "Gemüsebrei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/gemusebrei.jpg",
+    "image_url": "/images/logo.jpg",
     "description": "Ein Gemüsebrei für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Karotten", "Erbsen"],
     "nutritional_info": {

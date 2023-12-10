@@ -1,0 +1,35 @@
+{
+  "plan": [
+    {
+      "id": 1,
+      "name": "Plan1",
+      "age_group": "0-3monate",
+      "image_url": "/images/logo.jpg",
+      "description": "ErnährungsPlan."
+    },
+
+    {
+      "id": 2,
+      "name": "Plan2",
+      "age_group": "0-3monate",
+      "image_url": "/images/logo.jpg",
+      "description": "ErnährungsPlan."
+    },
+
+    {
+      "id": 3,
+      "name": "Plan3",
+      "age_group": "0-3monate",
+      "image_url": "/images/logo.jpg",
+      "description": "ErnährungsPlan."
+    },
+
+    {
+      "id": 4,
+      "name": "Plan4",
+      "age_group": "0-3monate",
+      "image_url": "/images/logo.jpg",
+      "description": "ErnährungsPlan."
+    }
+  ]
+}

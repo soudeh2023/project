@@ -25,7 +25,7 @@ function FertigEssen() {
   return (
     <div>
       <p>
-        <h1>Fertig Essen sind GEsund oder.....</h1>
+        <h1>Fertig Essen sind Gesund oder.....</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit
         maiores corporis animi, alias quos atque cumque aliquam deleniti est
         quia veritatis debitis voluptatibus sit possimus nam, tempore ducimus .
@@ -38,14 +38,16 @@ function FertigEssen() {
         <h1 className="ProductenTitle">Producten</h1>
         <ul className="alleFertigEssen">
           {data2.map((item) => (
-            <div className="Karte" key={item.id}>
+            <div
+              className="Karte"
+              key={item.id} onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)} >
               <li>{item.description}</li>
               <img className="Product-picture" src={item.image_url} alt="" />
               <li>{item.name}</li>
 
-              <bottun className="WarenkorbIconFertigEssen">
+              <button className="WarenkorbIconFertigEssen">
                 <ShoppingCartIcon />
-              </bottun>
+              </button>
             </div>
             // <img src={item.image_url} alt="picture" srcset="" />
           ))}
