@@ -1,12 +1,24 @@
-.BabyCategorieContainer {
+/* .BabyCategorieContainer {
   margin-bottom: 0;
+} */
+.ContainerBt {
+  border: 2px solid rgba(113, 89, 135, 0.499);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 2rem;
+  padding: 2rem;
+  gap: 2rem;
+
+  background-image: url("./images/logo3.jpg");
 }
 
 .BabyCategorieDiv {
   text-align: justify;
   padding-left: 4rem;
   padding-right: 4rem;
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 .BabyCategorieH1 {
@@ -17,8 +29,6 @@
   color: rgba(113, 89, 135, 0.499);
   display: flex;
   gap: 95%;
-  margin-top: 0;
-  padding-top: 0;
 }
 .LinkNächst a {
   text-decoration: none;
@@ -28,6 +38,6 @@
 }
 .MonateBt {
   line-height: 1.5rem;
+  border-radius: 0.5rem;
   color: rgba(54, 5, 60, 0.618);
-  border: 1px solid rgb(55, 60, 5);
 }

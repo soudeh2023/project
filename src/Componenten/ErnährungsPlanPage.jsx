@@ -31,8 +31,9 @@ function ErnährungsPlan() {
         {/* </ul> */}
       </div>
       <div className="LinkNächst">
-        <Link to="/BabyCategorie">back</Link>
+         <Link to="/BabyCategorie">back</Link>
         <Link to="/PageReciept">nächst</Link>
+       
       </div>
     </div>
   );
