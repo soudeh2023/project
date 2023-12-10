@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(129, 41, 212, 0.299);
+}
 .Plan-Container {
   display: flex;
   flex-wrap: nowrap;
