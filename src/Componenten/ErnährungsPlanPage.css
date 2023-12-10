@@ -1,0 +1,15 @@
+.Plan-Container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.LinkNächst {
+    color: rgba(113, 89, 135, 0.499);
+    display: flex;
+    gap: 95%;
+    margin-top: 0;
+  }
+  .LinkNächst a {
+    text-decoration: none;
+  }
