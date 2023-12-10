@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Gedünsteter Lachs mit Gemüsebrei",
+    "ingredients": [
+      "Lachsfilet",
+      "Kartoffel",
+      "Karotte",
+      "Brokkoli",
+      "Olivenöl"
+    ],
+    "instructions": "Lachsfilet dünsten und mit püriertem Gemüse (Kartoffel, Karotte, Brokkoli) vermengen. Mit etwas Olivenöl verfeinern."
+  },
+  {
+    "id": 2,
+    "name": "Thunfisch-Püree mit Avocado",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Avocado",
+      "Reis",
+      "Erbsen",
+      "Kokosöl"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit Avocado pürieren. Gekochten Reis und Erbsen hinzufügen. Mit etwas Kokosöl mischen."
+  },
+  {
+    "id": 3,
+    "name": "Forellenbrei mit Süßkartoffel",
+    "ingredients": [
+      "Forellenfilet",
+      "Süßkartoffel",
+      "Spinat",
+      "Rapsöl",
+      "Babymilch"
+    ],
+    "instructions": "Gedämpftes Forellenfilet und gekochte Süßkartoffel pürieren. Spinat, Rapsöl und Babymilch hinzufügen."
+  },
+  {
+    "id": 4,
+    "name": "Garnelen-Kartoffelstampf",
+    "ingredients": ["Garnelen", "Kartoffeln", "Erbsen", "Möhren", "Ghee"],
+    "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Erbsen, Möhren vermengen. Mit etwas Ghee verfeinern."
+  },
+  {
+    "id": 5,
+    "name": "Lachs-Brokkoli-Püree",
+    "ingredients": ["Lachsfilet", "Brokkoli", "Kartoffel", "Möhre", "Rapsöl"],
+    "instructions": "Gedämpftes Lachsfilet und Gemüse (Brokkoli, Kartoffel, Möhre) pürieren. Mit etwas Rapsöl vermengen."
+  },
+  {
+    "id": 6,
+    "name": "Thunfisch-Kartoffel-Bällchen",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Kartoffeln",
+      "Dill",
+      "Ei",
+      "Paniermehl"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit gestampften Kartoffeln, Dill, Ei formen. In Paniermehl rollen und backen."
+  },
+  {
+    "id": 7,
+    "name": "Forellen-Gemüsebrei",
+    "ingredients": [
+      "Forellenfilet",
+      "Zucchini",
+      "Süßkartoffel",
+      "Karotte",
+      "Babymilch"
+    ],
+    "instructions": "Gedünstetes Forellenfilet mit gedämpftem Gemüse (Zucchini, Süßkartoffel, Karotte) pürieren. Babymilch hinzufügen."
+  },
+  {
+    "id": 8,
+    "name": "Garnelen-Milchreis",
+    "ingredients": ["Garnelen", "Milchreis", "Erbsen", "Mais", "Kokosmilch"],
+    "instructions": "Gekochte Garnelen mit gekochtem Milchreis, Erbsen, Mais vermengen. Kokosmilch hinzufügen."
+  },
+  {
+    "id": 9,
+    "name": "Lachs-Gemüsestampf",
+    "ingredients": [
+      "Lachsfilet",
+      "Kartoffeln",
+      "Blumenkohl",
+      "Grüne Bohnen",
+      "Olivenöl"
+    ],
+    "instructions": "Gedämpftes Lachsfilet mit gestampften Kartoffeln, Blumenkohl, grünen Bohnen vermengen. Olivenöl hinzufügen."
+  },
+  {
+    "id": 10,
+    "name": "Thunfisch-Spinat-Risotto",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Spinat",
+      "Vollkornreis",
+      "Zwiebel",
+      "Gemüsebrühe"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit gedünstetem Spinat, Vollkornreis, Zwiebel und Gemüsebrühe kochen."
+  },
+  {
+    "id": 11,
+    "name": "Forellen-Avocado-Creme",
+    "ingredients": ["Forellenfilet", "Avocado", "Quinoa", "Birne", "Babymilch"],
+    "instructions": "Gedünstetes Forellenfilet mit pürierter Avocado, gekochtem Quinoa, Birne und Babymilch vermengen."
+  },
+  {
+    "id": 12,
+    "name": "Garnelen-Kartoffelbrei",
+    "ingredients": ["Garnelen", "Kartoffeln", "Karotte", "Erbsen", "Rapsöl"],
+    "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Karotte, Erbsen vermengen. Mit etwas Rapsöl verfeinern."
+  },
+  {
+    "id": 13,
+    "name": "Lachs-Spinat-Püree",
+    "ingredients": [
+      "Lachsfilet",
+      "Spinat",
+      "Süßkartoffel",
+      "Zwiebel",
+      "Kokosmilch"
+    ],
+    "instructions": "Gedämpftes Lachsfilet mit gedünstetem Spinat, Süßkartoffel, Zwiebel pürieren. Kokosmilch hinzufügen."
+  },
+  {
+    "id": 14,
+    "name": "Thunfisch-Mais-Brei",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Mais",
+      "Reis",
+      "Kürbis",
+      "Babymilch"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit Mais, gekochtem Reis, Kürbis und Babymilch pürieren."
+  }
+]
