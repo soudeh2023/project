@@ -81,8 +81,10 @@ function BabyCategorie() {
           sicherzustellen, dass das Kind sich gesund entwickelt.
         </p>
       </div>
-      <Link to="/PageHome">back</Link>
-      <Link to="/ErnährungsPlanPage ">Gehe zur and Seite</Link>
+      <div className="LinkNächst">
+        <Link to="/PageHome">back</Link>
+        <Link to="/ErnährungsPlanPage ">Nächst</Link>
+      </div>
     </div>
   );
 }
