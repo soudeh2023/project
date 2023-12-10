@@ -3,13 +3,20 @@
   flex-wrap: nowrap;
   justify-content: center;
   margin-top: 10rem;
+  gap: 2rem;
 }
 .LinkNächst {
-    color: rgba(113, 89, 135, 0.499);
-    display: flex;
-    gap: 95%;
-    margin-top: 0;
-  }
-  .LinkNächst a {
-    text-decoration: none;
-  }
+  color: rgba(113, 89, 135, 0.499);
+  display: flex;
+  gap: 95%;
+  margin-top: 9.5rem;
+}
+.LinkNächst a {
+  text-decoration: none;
+}
+.Product-picture {
+  width: 230px;
+  margin-left: 0;
+  margin-right: 5rem;
+  border-radius: 0.5rem;
+}

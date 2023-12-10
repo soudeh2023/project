@@ -2,33 +2,34 @@
   "plan": [
     {
       "id": 1,
-      "name": "Plan1",
+      "image_url": "/images/fleich5.jpg",
+      "name": "Flaich",
       "age_group": "0-3monate",
-      "image_url": "/images/logo.jpg",
+
       "description": "ErnährungsPlan."
     },
 
     {
       "id": 2,
-      "name": "Plan2",
+      "image_url": "/images/fisch.jpg",
+      "name": "Fisch",
       "age_group": "0-3monate",
-      "image_url": "/images/logo.jpg",
       "description": "ErnährungsPlan."
     },
 
     {
       "id": 3,
-      "name": "Plan3",
+      "image_url": "/images/vegetable.jpg",
+      "name": "Gemüse",
       "age_group": "0-3monate",
-      "image_url": "/images/logo.jpg",
       "description": "ErnährungsPlan."
     },
 
     {
       "id": 4,
-      "name": "Plan4",
+      "image_url": "/images/obst22.jpg",
+      "name": "Obst",
       "age_group": "0-3monate",
-      "image_url": "/images/logo.jpg",
       "description": "ErnährungsPlan."
     }
   ]

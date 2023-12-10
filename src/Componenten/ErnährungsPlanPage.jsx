@@ -22,9 +22,9 @@ function ErnährungsPlan() {
             <img className="Product-picture" src={item.image_url} alt="" />
             <li>{item.name}</li>
 
-            <button className="WarenkorbIconFertigEssen">
-              {/* <ShoppingCartIcon /> */}
-            </button>
+            {/* <button className="WarenkorbIconFertigEssen">
+              <ShoppingCartIcon />
+            </button> */}
           </div>
           // <img src={item.image_url} alt="picture" srcset="" />
         ))}
