@@ -58,7 +58,14 @@ function Navbar() {
         </li>
         <li>
           <Link to="/PageÜberuns">
-            <PointOfSaleIcon />
+            {/* <PointOfSaleIcon /> */}
+            <p>Plan</p>
+          </Link>
+        </li>
+        <li>
+          <Link to="/Warenkorb">
+            {/* <ShoppingCartIcon /> */}
+            <p>FertigEssen</p>
           </Link>
         </li>
         <li>
@@ -73,12 +80,6 @@ function Navbar() {
                 <button onClick={logout}>Logout</button>
               </>
             )}
-          </Link>
-        </li>
-
-        <li>
-          <Link to="/Warenkorb">
-            <ShoppingCartIcon />
           </Link>
         </li>
       </ul>

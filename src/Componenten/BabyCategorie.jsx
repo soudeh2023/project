@@ -47,20 +47,23 @@ function BabyCategorie() {
           Selbstverständlich, hier ist die Aufteilung nach Altersgruppen und
           einige Ernährungsempfehlungen für Babys:
           <br />
-          0 bis 3 Monate: <br />
+          <button className="MonateBt">0 bis 3 Monate</button>:
+          <br />
           In den ersten 3 Monaten ist die Hauptquelle der Ernährung Muttermilch
           oder Säuglingsnahrung. Babys in dieser Altersgruppe benötigen
           ausschließlich Milch als Hauptnahrungsquelle. Die Muttermilch oder
           Säuglingsnahrung bietet alle notwendigen Nährstoffe für das Wachstum
           und die Entwicklung.
           <br />
-          3 bis 6 Monate:
-          <br /> Ab dem Alter von 3 Monaten kann schrittweise mit der Einführung
-          von Beikost begonnen werden. Hierbei können pürierte Gemüse und Obst
-          wie Karotten, Süßkartoffeln, Bananen und Äpfel eingeführt werden. Die
+          <button className="MonateBt">3 bis 6 Monate</button>:
+          <br />
+          Ab dem Alter von 3 Monaten kann schrittweise mit der Einführung von
+          Beikost begonnen werden. Hierbei können pürierte Gemüse und Obst wie
+          Karotten, Süßkartoffeln, Bananen und Äpfel eingeführt werden. Die
           Menge und Konsistenz sollten dem Alter und den individuellen
           Bedürfnissen des Babys angepasst werden.
-          <br /> 6 bis 9 Monate:
+          <br />
+          <button className="MonateBt">6 bis 9 Monate</button>:
           <br />
           In dieser Phase kann die Vielfalt der Beikost weiter ausgebaut werden.
           Zusätzlich zu Gemüse und Obst können nun auch weiche Getreideprodukte
@@ -68,10 +71,11 @@ function BabyCategorie() {
           wie püriertes Hühnerfleisch oder Fisch können ebenfalls schrittweise
           integriert werden.
           <br />
-          9 bis 12 Monate:
-          <br /> Mit 9 bis 12 Monaten können Sie die Nahrungsvielfalt weiter
-          steigern. Neben den bisherigen Lebensmitteln können auch kleine Stücke
-          von weichen Lebensmitteln eingeführt werden, um die Kaumuskulatur zu
+          <button className="MonateBt">9 bis 12 Monate</button>:
+          <br />
+          Mit 9 bis 12 Monaten können Sie die Nahrungsvielfalt weiter steigern.
+          Neben den bisherigen Lebensmitteln können auch kleine Stücke von
+          weichen Lebensmitteln eingeführt werden, um die Kaumuskulatur zu
           fördern. Kuhmilch oder geeignete Milchersatzprodukte können ab dem 1.
           Geburtstag in Absprache mit dem Kinderarzt eingeführt werden. Während
           dieser Phasen ist es wichtig, die individuellen Bedürfnisse des Babys
