@@ -1,1 +1,12 @@
-
+.BabyCategorieDiv {
+  text-align: justify;
+  padding: 4rem;
+  line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: r0.5em;
+  padding-top: 0;
+}
+.BabyCategorieH1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}

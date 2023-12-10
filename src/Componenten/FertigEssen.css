@@ -37,7 +37,9 @@ body {
 }
 
 .WarenkorbIconFertigEssen {
-  color: rgba(54, 5, 60, 0.403);
+  /* color: rgba(54, 5, 60, 0.403); */
+  background-color: rgba(113, 89, 135, 0.499);
+  margin-top: 0.5rem;
 }
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);

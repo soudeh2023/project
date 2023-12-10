@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import "./PageHome.css";
 
 function PageHome() {
   return (
-    
-        <section>
+    <div className="HomepegeDiv">
+      <section>
         <h1 className="PageHomeh1">Klein Kinder && Gesund Essen</h1>
         <p className="PageHomepar">
           Die Ernährung von Kindern unter einem Jahr ist von entscheidender
@@ -45,8 +46,31 @@ function PageHome() {
           zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres
           Kindes den spezifischen Anforderungen entspricht.
         </p>
-        <Link to="/BabyCategorie" className="BabyCategorieLink">Gehe zur and Seite</Link>
+        <Link to="/BabyCategorie" className="BabyCategorieLink">
+          Gehe zur and Seite
+        </Link>
       </section>
+      <section className="aboutUs">
+        <h1>Über Uns</h1>
+        <p>
+          Ich habe eine Website erstellt und hoffe, dass sie benutzerfreundlich
+          ist. Ich hoffe, dass ich auf diese Weise dazu beitragen kann, dass
+          Kinder gesund aufwachsen, indem ich leicht verständliche Informationen
+          zur Verfügung stelle. Mein Ziel ist es, in der Zukunft dieses Projekt
+          weiterzuentwickeln, um alle notwendigen Ressourcen für die körperliche
+          und geistige Entwicklung von Kindern bereitzustellen. Dieses Projekt
+          wird auch zukünftig Schulungen und Beratungen einschließen. Ich hoffe,
+          dass ich einen kleinen Beitrag dazu leisten kann, die Gesundheit aller
+          Kinder weltweit zu fördern.
+        </p>
+        <PointOfSaleIcon />
+        <h5>017683354977</h5>
+        <h5>089683354977</h5>
+        <h5>soodeh.safahani@gmail.com</h5>
+        <p>Soudeh Safahanizadeh</p>
+      </section>
+      ;
+    </div>
   );
 }
 

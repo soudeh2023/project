@@ -1,8 +1,10 @@
-.PageHomepar {
+.PageHomepar,
+.aboutUs {
   text-align: justify;
   padding: 4rem;
   line-height: 2rem;
   margin-top: 0;
+  margin-bottom: 2rem;
   padding-top: 0;
 }
 .PageHomeh1 {
@@ -12,4 +14,11 @@
   margin-top: 0;
   padding-top: 0;
   color: rgb(113, 89, 135);
+}
+.aboutUs {
+  text-align: center;
+  padding: 4rem;
+  line-height: 2rem;
+  margin-top: 10rem;
+  padding-top: 0;
 }
