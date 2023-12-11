@@ -40,7 +40,9 @@ function FertigEssen() {
           {data2.map((item) => (
             <div
               className="Karte"
-              key={item.id} onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)} >
+              key={item.id}
+              onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)}
+            >
               <li>{item.description}</li>
               <img className="Product-picture" src={item.image_url} alt="" />
               <li>{item.name}</li>
@@ -54,8 +56,8 @@ function FertigEssen() {
         </ul>
       </div>
       <div className="LinkNächst">
-        <Link to="/PageReciept">back</Link>
-        <Link to="linkEndePage">Nächst</Link>
+        <Link to="/ErnährungsPlanPage">back</Link>
+        <Link to="/EndePage">Nächst</Link>
       </div>
     </div>
   );

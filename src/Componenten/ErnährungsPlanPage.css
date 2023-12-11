@@ -1,6 +1,5 @@
-
-
 .Plan-Container {
+  color: black;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
