@@ -1,0 +1,327 @@
+
+ {
+  "Reciept":[
+ 
+ {
+    "id": 1,
+    "name": "Gedünsteter Lachs mit Gemüsebrei",
+    "ingredients": [
+      "Lachsfilet",
+      "Kartoffel",
+      "Karotte",
+      "Brokkoli",
+      "Olivenöl"
+    ],
+    "instructions": "Lachsfilet dünsten und mit püriertem Gemüse (Kartoffel, Karotte, Brokkoli) vermengen. Mit etwas Olivenöl verfeinern."
+ 
+  },
+  {
+    "id": 2,
+    "name": "Thunfisch-Püree mit Avocado",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Avocado",
+      "Reis",
+      "Erbsen",
+      "Kokosöl"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit Avocado pürieren. Gekochten Reis und Erbsen hinzufügen. Mit etwas Kokosöl mischen."
+  },
+  {
+    "id": 3,
+    "name": "Forellenbrei mit Süßkartoffel",
+    "ingredients": [
+      "Forellenfilet",
+      "Süßkartoffel",
+      "Spinat",
+      "Rapsöl",
+      "Babymilch"
+    ],
+    "instructions": "Gedämpftes Forellenfilet und gekochte Süßkartoffel pürieren. Spinat, Rapsöl und Babymilch hinzufügen."
+  },
+  {
+    "id": 4,
+    "name": "Garnelen-Kartoffelstampf",
+    "ingredients": ["Garnelen", "Kartoffeln", "Erbsen", "Möhren", "Ghee"],
+    "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Erbsen, Möhren vermengen. Mit etwas Ghee verfeinern."
+  },
+  {
+    "id": 5,
+    "name": "Lachs-Brokkoli-Püree",
+    "ingredients": ["Lachsfilet", "Brokkoli", "Kartoffel", "Möhre", "Rapsöl"],
+    "instructions": "Gedämpftes Lachsfilet und Gemüse (Brokkoli, Kartoffel, Möhre) pürieren. Mit etwas Rapsöl vermengen."
+  },
+  {
+    "id": 6,
+    "name": "Thunfisch-Kartoffel-Bällchen",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Kartoffeln",
+      "Dill",
+      "Ei",
+      "Paniermehl"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit gestampften Kartoffeln, Dill, Ei formen. In Paniermehl rollen und backen."
+  },
+  {
+    "id": 7,
+    "name": "Forellen-Gemüsebrei",
+    "ingredients": [
+      "Forellenfilet",
+      "Zucchini",
+      "Süßkartoffel",
+      "Karotte",
+      "Babymilch"
+    ],
+    "instructions": "Gedünstetes Forellenfilet mit gedämpftem Gemüse (Zucchini, Süßkartoffel, Karotte) pürieren. Babymilch hinzufügen."
+  },
+  {
+    "id": 8,
+    "name": "Garnelen-Milchreis",
+    "ingredients": ["Garnelen", "Milchreis", "Erbsen", "Mais", "Kokosmilch"],
+    "instructions": "Gekochte Garnelen mit gekochtem Milchreis, Erbsen, Mais vermengen. Kokosmilch hinzufügen."
+  },
+  {
+    "id": 9,
+    "name": "Lachs-Gemüsestampf",
+    "ingredients": [
+      "Lachsfilet",
+      "Kartoffeln",
+      "Blumenkohl",
+      "Grüne Bohnen",
+      "Olivenöl"
+    ],
+    "instructions": "Gedämpftes Lachsfilet mit gestampften Kartoffeln, Blumenkohl, grünen Bohnen vermengen. Olivenöl hinzufügen.",
+    "category":"Meer"
+  },
+  {
+    "id": 10,
+    "name": "Thunfisch-Spinat-Risotto",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Spinat",
+      "Vollkornreis",
+      "Zwiebel",
+      "Gemüsebrühe"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit gedünstetem Spinat, Vollkornreis, Zwiebel und Gemüsebrühe kochen."
+  },
+  {
+    "id": 11,
+    "name": "Forellen-Avocado-Creme",
+    "ingredients": ["Forellenfilet", "Avocado", "Quinoa", "Birne", "Babymilch"],
+    "instructions": "Gedünstetes Forellenfilet mit pürierter Avocado, gekochtem Quinoa, Birne und Babymilch vermengen."
+  },
+  {
+    "id": 12,
+    "name": "Garnelen-Kartoffelbrei",
+    "ingredients": ["Garnelen", "Kartoffeln", "Karotte", "Erbsen", "Rapsöl"],
+    "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Karotte, Erbsen vermengen. Mit etwas Rapsöl verfeinern."
+  },
+  {
+    "id": 13,
+    "name": "Lachs-Spinat-Püree",
+    "ingredients": [
+      "Lachsfilet",
+      "Spinat",
+      "Süßkartoffel",
+      "Zwiebel",
+      "Kokosmilch"
+    ],
+    "instructions": "Gedämpftes Lachsfilet mit gedünstetem Spinat, Süßkartoffel, Zwiebel pürieren. Kokosmilch hinzufügen."
+  },
+  {
+    "id": 14,
+    "name": "Thunfisch-Mais-Brei",
+    "ingredients": [
+      "Thunfisch in Wasser",
+      "Mais",
+      "Reis",
+      "Kürbis",
+      "Babymilch"
+    ],
+    "instructions": "Thunfisch in Wasser kochen, mit Mais, gekochtem Reis, Kürbis und Babymilch pürieren."
+  }
+  [
+    {
+      "id": 1,
+      "name": "Apfel-Birnen-Püree",
+      "ingredients": ["Äpfel", "Birnen", "Zimt", "Babymilch"],
+      "instructions": "Gedünstete Äpfel mit pürierten Birnen und einer Prise Zimt vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 2,
+      "name": "Banane-Avocado-Brei",
+      "ingredients": ["Banane", "Avocado", "Haferflocken", "Rapsöl"],
+      "instructions": "Pürierte Banane mit pürierter Avocado und gekochten Haferflocken vermengen. Mit etwas Rapsöl verfeinern."
+    },
+    {
+      "id": 3,
+      "name": "Blaubeer-Joghurt-Mix",
+      "ingredients": [
+        "Blaubeeren",
+        "Naturjoghurt",
+        "Himbeeren",
+        "Vanilleextrakt"
+      ],
+      "instructions": "Frische Blaubeeren mit Naturjoghurt, Himbeeren und einer Prise Vanilleextrakt vermengen."
+    },
+    {
+      "id": 4,
+      "name": "Mango-Kiwi-Brei",
+      "ingredients": ["Mango", "Kiwi", "Quinoa", "Kokosmilch"],
+      "instructions": "Pürierte Mango mit pürierter Kiwi, gekochtem Quinoa vermengen. Kokosmilch hinzufügen."
+    },
+    {
+      "id": 5,
+      "name": "Pfirsich-Aprikosen-Creme",
+      "ingredients": ["Pfirsiche", "Aprikosen", "Reis", "Mandelmilch"],
+      "instructions": "Pürierte Pfirsiche mit pürierten Aprikosen und gekochtem Reis vermengen. Mandelmilch hinzufügen."
+    },
+    {
+      "id": 6,
+      "name": "Erdbeer-Bananen-Mix",
+      "ingredients": ["Erdbeeren", "Banane", "Haferflocken", "Babymilch"],
+      "instructions": "Frische Erdbeeren mit pürierter Banane, gekochten Haferflocken vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 7,
+      "name": "Kirschen-Haferbrei",
+      "ingredients": ["Kirschen", "Haferflocken", "Mandelmilch", "Vanillearoma"],
+      "instructions": "Entkernte Kirschen mit gekochten Haferflocken, Mandelmilch und etwas Vanillearoma vermengen."
+    },
+    {
+      "id": 8,
+      "name": "Wassermelonen-Birnen-Smoothie",
+      "ingredients": ["Wassermelone", "Birnen", "Joghurt", "Minze"],
+      "instructions": "Fruchtfleisch der Wassermelone mit pürierter Birne, Joghurt und etwas Minze mixen."
+    },
+    {
+      "id": 9,
+      "name": "Ananas-Mango-Brei",
+      "ingredients": ["Ananas", "Mango", "Quinoa", "Kokosmilch"],
+      "instructions": "Pürierte Ananas mit pürierter Mango, gekochtem Quinoa vermengen. Kokosmilch hinzufügen."
+    },
+    {
+      "id": 10,
+      "name": "Himbeer-Apfel-Creme",
+      "ingredients": ["Himbeeren", "Äpfel", "Reis", "Mandelmilch"],
+      "instructions": "Pürierte Himbeeren mit pürierten Äpfeln und gekochtem Reis vermengen. Mandelmilch hinzufügen."
+    },
+    {
+      "id": 11,
+      "name": "Birne-Zimt-Müsli",
+      "ingredients": ["Birnen", "Haferflocken", "Zimt", "Babymilch"],
+      "instructions": "Geraspelte Birnen mit Haferflocken, einer Prise Zimt vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 12,
+      "name": "Mandarinen-Banane-Brei",
+      "ingredients": ["Mandarinen", "Banane", "Quinoa", "Mandelmilch"],
+      "instructions": "Pürierte Mandarinen mit pürierter Banane, gekochtem Quinoa vermengen. Mandelmilch hinzufügen."
+    },
+    {
+      "id": 13,
+      "name": "Granatapfel-Apfel-Smoothie",
+      "ingredients": ["Granatapfelkerne", "Äpfel", "Joghurt", "Honig"],
+      "instructions": "Granatapfelkerne mit pürierten Äpfeln, Joghurt und etwas Honig mixen."
+    },
+    {
+      "id": 14,
+      "name": "Melonen-Papaya-Brei",
+      "ingredients": ["Melone", "Papaya", "Reis", "Kokosmilch"],
+      "instructions": "Pürierte Melone mit pürierter Papaya, gekochtem Reis vermengen. Kokosmilch hinzufügen."
+    }
+  ]
+  [
+    {
+      "id": 1,
+      "name": "Hühnchen-Karotten-Püree",
+      "ingredients": ["Hühnchenbrust", "Karotte", "Kartoffel", "Erbsen", "Olivenöl"],
+      "instructions": "Gekochte Hühnchenbrust mit gedünstetem Gemüse (Karotte, Kartoffel, Erbsen) pürieren. Olivenöl hinzufügen."
+    },
+    {
+      "id": 2,
+      "name": "Rindfleisch-Avocado-Brei",
+      "ingredients": ["Rindfleisch", "Avocado", "Quinoa", "Brokkoli", "Babymilch"],
+      "instructions": "Gekochtes Rindfleisch mit pürierter Avocado, gekochtem Quinoa, gedünstetem Brokkoli vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 3,
+      "name": "Lammfleisch-Kürbisbrei",
+      "ingredients": ["Lammfleisch", "Kürbis", "Süßkartoffel", "Spinat", "Rapsöl"],
+      "instructions": "Gekochtes Lammfleisch mit gekochtem Kürbis, Süßkartoffel, gedünstetem Spinat vermengen. Mit etwas Rapsöl verfeinern."
+    },
+    {
+      "id": 4,
+      "name": "Putengemüsestampf",
+      "ingredients": ["Putenfleisch", "Kartoffeln", "Zucchini", "Tomate", "Ghee"],
+      "instructions": "Gekochtes Putenfleisch mit gestampften Kartoffeln, gedünsteter Zucchini, Tomate vermengen. Mit etwas Ghee verfeinern."
+    }
+  ]
+  [
+    {
+      "id": 1,
+      "name": "Karotten-Kartoffel-Brei",
+      "ingredients": ["Karotten", "Kartoffeln", "Zucchini", "Olivenöl"],
+      "instructions": "Gedünstete Karotten mit gestampften Kartoffeln und Zucchini vermengen. Mit etwas Olivenöl verfeinern."
+    },
+    {
+      "id": 2,
+      "name": "Brokkoli-Blumenkohl-Püree",
+      "ingredients": ["Brokkoli", "Blumenkohl", "Süßkartoffel", "Rapsöl"],
+      "instructions": "Gedämpfter Brokkoli mit püriertem Blumenkohl und Süßkartoffel. Mit etwas Rapsöl hinzufügen."
+    },
+    {
+      "id": 3,
+      "name": "Spinat-Avocado-Brei",
+      "ingredients": ["Spinat", "Avocado", "Quinoa", "Babymilch"],
+      "instructions": "Gedämpfter Spinat mit pürierter Avocado, gekochtem Quinoa vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 4,
+      "name": "Zucchinipüree mit Erbsen",
+      "ingredients": ["Zucchini", "Erbsen", "Reis", "Kokosöl"],
+      "instructions": "Gedünstete Zucchini mit Erbsen und gekochtem Reis vermengen. Mit etwas Kokosöl verfeinern."
+    },
+    {
+      "id": 5,
+      "name": "Kürbis-Kartoffelstampf",
+      "ingredients": ["Kürbis", "Kartoffeln", "Möhren", "Ghee"],
+      "instructions": "Gedämpfter Kürbis mit gestampften Kartoffeln und Möhren vermengen. Mit etwas Ghee verfeinern."
+    },
+    {
+      "id": 6,
+      "name": "Süßkartoffel-Blumenkohl-Brei",
+      "ingredients": ["Süßkartoffel", "Blumenkohl", "Linsen", "Rapsöl"],
+      "instructions": "Gedämpfte Süßkartoffel mit püriertem Blumenkohl und gekochten Linsen vermengen. Mit etwas Rapsöl verfeinern."
+    },
+    {
+      "id": 7,
+      "name": "Tomaten-Basilikum-Quinoa",
+      "ingredients": ["Tomaten", "Basilikum", "Quinoa", "Olivenöl"],
+      "instructions": "Frische Tomaten mit gehacktem Basilikum und gekochtem Quinoa vermengen. Mit etwas Olivenöl verfeinern."
+    },
+    {
+      "id": 8,
+      "name": "Paprika-Kartoffel-Ragout",
+      "ingredients": ["Paprika", "Kartoffeln", "Grüne Bohnen", "Babymilch"],
+      "instructions": "Gedünstete Paprika mit gestampften Kartoffeln und grünen Bohnen vermengen. Babymilch hinzufügen."
+    },
+    {
+      "id": 9,
+      "name": "Sellerie-Zwiebel-Kartoffelbrei",
+      "ingredients": ["Sellerie", "Zwiebel", "Kartoffeln", "Rapsöl"],
+      "instructions": "Gedünsteter Sellerie mit gedünsteter Zwiebel und gestampften Kartoffeln vermengen. Mit etwas Rapsöl verfeinern."
+    },
+    {
+      "id": 10,
+      "name": "Blumenkohl-Erbsen-Creme",
+      "ingredients": ["Blumenkohl", "Erbsen", "Reis", "Kokosmilch"],
+      "instructions": "Gedämpfter Blumenkohl mit Erbsen und gekochtem Reis vermengen. Kokosmilch hinzufügen."
+    }
+  ]
+  
+  
+]
+ }
