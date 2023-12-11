@@ -16,7 +16,7 @@ function ErnährungsPlan() {
           <div
             className="Karte"
             key={item.id}
-            onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)}
+            // onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)}
           >
             <li>{item.description}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
@@ -37,6 +37,10 @@ function ErnährungsPlan() {
       </div>
     </div>
   );
+  <div>
+
+    
+  </div>
 }
 
 export default ErnährungsPlan;

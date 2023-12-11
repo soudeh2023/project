@@ -4,17 +4,15 @@ import GesundEssenPageInfo from "./Componenten/GesundEssenPageInfo";
 import FertigEssen from "./Componenten/FertigEssen";
 import PageProduct from "./Componenten/PageProduct ";
 import BabyCategorie from "./Componenten/BabyCategorie";
-import PageReciept from "./Componenten/PageReciept";
 import PageÜberuns from "./Componenten/PageÜberUns";
 import Navbar from "./Componenten/Navbar";
 import login from "./Componenten/login";
 import PageContact from "./Componenten/PageContact";
-import ErnährungsPlanPage from "./Componenten/ErnährungsPlanPage";
+import RecieptCategory from "./Componenten/RecieptCategory";
 import EndePage from "./Componenten/EndePage";
 import WarenKorbPage from "./Componenten/WarenKorbPage";
-import  MeehrReciept  from "./Componenten/MeehrReciept";
-import "./App.css";
 
+import "./App.css";
 
 function App() {
   return (
@@ -27,15 +25,13 @@ function App() {
           <Route path="/GesundEssenPageInfo" Component={GesundEssenPageInfo} />
           <Route path="PageÜberUns" Component={PageÜberuns} />
           <Route path="/BabyCategorie" Component={BabyCategorie} />
-          <Route path="/PageReciept" Component={PageReciept} />
           <Route path="/fertigessen" Component={FertigEssen} />
           <Route path="/WarenKorb" Component={WarenKorbPage} />
           <Route path="/product/:id" Component={PageProduct} />
           <Route path="/login/" Component={login} />
           <Route path="/Contact/" Component={PageContact} />
-          <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
+          <Route path="/RecieptCategory/" Component={RecieptCategory} />
           <Route path="/EndePage/" Component={EndePage} />
-          <Route path="/MeehrReciept/" Component={MeehrReciept} />
         </Routes>
       </BrowserRouter>
     </>
