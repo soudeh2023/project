@@ -59,7 +59,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/PageÜberuns">
+          <Link to="/ErnährungsPlanPage">
             <button>
               {/* <PointOfSaleIcon /> */}
               <p>Plan</p>
@@ -67,7 +67,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/Warenkorb">
+          <Link to="/FertigEssen">
             <button>
               {/* <ShoppingCartIcon /> */}
               <p>FertigEssen</p>

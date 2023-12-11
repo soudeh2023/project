@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Data from "../../eplan.json";
 import "./ErnährungsPlanPage.css";
 
-function ErnährungsPlan() {
+function ErnährungsPlanPage() {
   const eplan = Data.plan;
   console.log(eplan);
 
@@ -31,16 +31,11 @@ function ErnährungsPlan() {
         {/* </ul> */}
       </div>
       <div className="LinkNächst">
-         <Link to="/BabyCategorie">back</Link>
-        <Link to="/PageReciept">nächst</Link>
-       
+        <Link to="/BabyCategorie">back</Link>
+        <Link to="/FertigEssen">nächst</Link>
       </div>
     </div>
   );
-  <div>
-
-    
-  </div>
 }
 
-export default ErnährungsPlan;
+export default ErnährungsPlanPage;
