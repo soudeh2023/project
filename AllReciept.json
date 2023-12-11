@@ -141,7 +141,7 @@
       "Babymilch"
     ],
     "instructions": "Thunfisch in Wasser kochen, mit Mais, gekochtem Reis, Kürbis und Babymilch pürieren."
-  }
+  },
   [
     {
       "id": 1,
@@ -231,9 +231,7 @@
       "name": "Melonen-Papaya-Brei",
       "ingredients": ["Melone", "Papaya", "Reis", "Kokosmilch"],
       "instructions": "Pürierte Melone mit pürierter Papaya, gekochtem Reis vermengen. Kokosmilch hinzufügen."
-    }
-  ]
-  [
+    },
     {
       "id": 1,
       "name": "Hühnchen-Karotten-Püree",
@@ -257,10 +255,8 @@
       "name": "Putengemüsestampf",
       "ingredients": ["Putenfleisch", "Kartoffeln", "Zucchini", "Tomate", "Ghee"],
       "instructions": "Gekochtes Putenfleisch mit gestampften Kartoffeln, gedünsteter Zucchini, Tomate vermengen. Mit etwas Ghee verfeinern."
-    }
-  ]
-  [
-    {
+    },
+      {
       "id": 1,
       "name": "Karotten-Kartoffel-Brei",
       "ingredients": ["Karotten", "Kartoffeln", "Zucchini", "Olivenöl"],
