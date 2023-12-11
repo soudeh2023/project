@@ -1,5 +1,8 @@
-[
-  {
+
+ {
+  "MeehrReciept":[
+ 
+ {
     "id": 1,
     "name": "Gedünsteter Lachs mit Gemüsebrei",
     "ingredients": [
@@ -138,3 +141,4 @@
     "instructions": "Thunfisch in Wasser kochen, mit Mais, gekochtem Reis, Kürbis und Babymilch pürieren."
   }
 ]
+ }

@@ -12,8 +12,9 @@ import PageContact from "./Componenten/PageContact";
 import ErnährungsPlanPage from "./Componenten/ErnährungsPlanPage";
 import EndePage from "./Componenten/EndePage";
 import WarenKorbPage from "./Componenten/WarenKorbPage";
-
+import  MeehrReciept  from "./Componenten/MeehrReciept";
 import "./App.css";
+
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/Contact/" Component={PageContact} />
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/EndePage/" Component={EndePage} />
+          <Route path="/MeehrReciept/" Component={MeehrReciept} />
         </Routes>
       </BrowserRouter>
     </>

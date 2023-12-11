@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import Diversity1TwoToneIcon from "@mui/icons-material/Diversity1TwoTone";
+import Face4TwoToneIcon from "@mui/icons-material/Face4TwoTone";
+import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
 import "./PageHome.css";
 
 function PageHome() {
   return (
     <div className="HomepegeDiv">
       <section>
-        <h1 className="PageHomeh1">Klein Kinder && Gesund Essen</h1>
+        <h1 className="PageHomeh1">Kleine Kinder && Gesund Essen</h1>
         <p className="PageHomepar">
           Die Ernährung von Kindern unter einem Jahr ist von entscheidender
           Bedeutung, da sie in dieser Phase rapide wachsen und sich entwickeln.
@@ -46,8 +49,11 @@ function PageHome() {
           zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres
           Kindes den spezifischen Anforderungen entspricht.
         </p>
+        <Diversity1TwoToneIcon className="HearzIcon" />
+        <Face4TwoToneIcon />
+        <FaceTwoToneIcon />
         <Link to="/BabyCategorie" className="BabyCategorieLink">
-          Gehe zur and Seite
+          Nächst
         </Link>
       </section>
       <section className="aboutUs">
@@ -64,6 +70,7 @@ function PageHome() {
           Kinder weltweit zu fördern.
         </p>
         <PointOfSaleIcon />
+        
         <h5>017683354977</h5>
         <h5>089683354977</h5>
         <h5>soodeh.safahani@gmail.com</h5>
