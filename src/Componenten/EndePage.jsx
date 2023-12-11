@@ -4,9 +4,9 @@ import "./EndePage.css";
 
 function EndePage() {
   return (
-    <div>
+    <div className="ContactContainer">
       <h1>contact us</h1>
-      <div className="ContactContainer">
+      <div >
         <label>Vornane:</label>
         <input placeholder="Vornane"></input>
         <label>Nachnane:</label>
