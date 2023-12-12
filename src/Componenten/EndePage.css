@@ -6,7 +6,7 @@
   border-radius: 0.5rem;
   margin-top: 3rem;
   padding: 1.7rem;
-  margin-left: calc(50% - 7.5rem);
+  /* margin-left: calc(50% - 7.5rem); */
   text-align: left;
 }
 div {
@@ -21,4 +21,13 @@ div {
 .BodyContainer {
   display: flex;
   flex-direction: row-reverse;
+  gap: 3rem;
+  
+  
+}
+.ContactPar {
+  width: 50%;
+  margin-top: 3ren;
+  margin-left: 0;
+ 
 }
