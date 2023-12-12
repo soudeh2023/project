@@ -269,7 +269,7 @@
       },
       {
         "id": 29,
-        "category": "Meet",
+        "category": "Meat",
         "name": "Hühnchen-Karotten-Püree",
         "ingredients": [
           "Hühnchenbrust",
@@ -282,7 +282,7 @@
       },
       {
         "id": 30,
-        "category": "Meet",
+        "category": "Meat",
         "name": "Rindfleisch-Avocado-Brei",
         "ingredients": [
           "Rindfleisch",
@@ -295,7 +295,7 @@
       },
       {
         "id": 31,
-        "category": "Meet",
+        "category": "Meat",
         "name": "Lammfleisch-Kürbisbrei",
         "ingredients": [
           "Lammfleisch",
@@ -308,7 +308,7 @@
       },
       {
         "id": 32,
-        "category": "Meet",
+        "category": "Meat",
         "name": "Putengemüsestampf",
         "ingredients": [
           "Putenfleisch",

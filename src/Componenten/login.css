@@ -3,6 +3,7 @@
   height: 20rem;
   border: 2px solid rgba(113, 89, 135, 0.762);
   background-color: rgba(119, 136, 153, 0.258);
+  border-radius: 0.5rem;
   text-align: center;
   margin-top: 3rem;
   padding: 2rem;

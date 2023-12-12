@@ -1,23 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Data from "../../eplan.json";
 import "./ErnährungsPlanPage.css";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import Reciept from "../../AlleRezept.json";
-import React, { useState } from 'react';
 
 function ErnährungsPlanPage() {
   const eplan = Data.plan;
   console.log(eplan);
-  const AlleRezept = Reciept.Reciept;
+  let AlleRezept = Reciept.Reciept;
   console.log(AlleRezept);
+  const [filter, setFilter] = useState(["fruit", "Meer"]);
+
+  AlleRezept = AlleRezept.filter((item) => filter.includes(item.category));
 
   return (
     <div>
       <h1 className="ProductenTitle">ErnährungsPlan</h1>
+      {/* <button onClick={()=>setFilter(["fruit"])}>Filter Fruit</button> */}
       <div className="Plan-Container">
         {eplan.map((item) => (
-          <div className="Karte" key={item.id}>
+          <div className="Karte" key={item.id} onClick={()=>setFilter([item.category])}>
             <li>{item.description}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
             <li>{item.name}</li>
@@ -27,18 +30,17 @@ function ErnährungsPlanPage() {
       <h1 className="AlleReciept">Alle Rezept</h1>
       <div className="Rezept-Container">
         {AlleRezept.map((item) => (
-          <div className="Karte" key={item.id}>
+          <div className="KarteRezept" key={item.id}>
             <li>{item.category}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
             <li>{item.name}</li>
             <li>{item.ingredients}</li>
             <li>{item.instructions}</li>
 
-            <button className="pageFavorite">
+            <button className="Heartzbt">
               <FavoriteBorderOutlinedIcon />
             </button>
           </div>
-          
         ))}
       </div>
 

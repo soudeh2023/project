@@ -2,15 +2,17 @@
   "plan": [
     {
       "id": 1,
+      "category": "Meat",
+
       "image_url": "/images/fleich5.jpg",
       "name": "Flaich",
       "age_group": "0-3monate",
-
       "description": "ErnährungsPlan."
     },
 
     {
       "id": 2,
+      "category": "Meer",
       "image_url": "/images/fisch.jpg",
       "name": "Fisch",
       "age_group": "0-3monate",
@@ -19,6 +21,7 @@
 
     {
       "id": 3,
+      "category": "Vegetable",
       "image_url": "/images/vegetable.jpg",
       "name": "Gemüse",
       "age_group": "0-3monate",
@@ -27,6 +30,7 @@
 
     {
       "id": 4,
+      "category": "fruit",
       "image_url": "/images/obst22.jpg",
       "name": "Obst",
       "age_group": "0-3monate",

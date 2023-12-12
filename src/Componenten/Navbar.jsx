@@ -23,7 +23,7 @@ function Navbar() {
     setUser(JSON.parse(JSON.stringify(updatedUser)));
 
     localStorage.setItem("localUser", JSON.stringify({ isLoggedIn: false }));
-    np;
+    window.location.href = "/PageHome";
   }
   useEffect(() => {
     const localUser = localStorage.getItem("localUser");
