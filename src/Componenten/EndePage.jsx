@@ -5,8 +5,11 @@ import "./EndePage.css";
 function EndePage() {
   return (
     <div>
+      
+      <div className="BodyContainer">
+    
       <div className="ContactContainer">
-        <h1>contact us</h1>
+        <h1 className="ContactContainerH">contact us</h1>
         <div className="ContactContaineIn">
           <div>
             <label>Vornane:</label>
@@ -24,10 +27,10 @@ function EndePage() {
             <label>Tel Nummer:</label>
             <input placeholder="Tel Nummer"></input>
           </div>
-          <submit className="submitbt">Submit</submit>
+          <button className="Submit" type="submit">Submit</button>
         </div>
       </div>
-      <p>
+      <p className="ContactPar">
         Wow, ich wollte mich bedanken, dass Sie meine Webseite besucht haben.
         Mein Ziel mit dieser Webseite ist es, Müttern, Kindern und schließlich
         allen Menschen auf spiritueller und physischer Ebene zu helfen. Die
@@ -40,6 +43,7 @@ function EndePage() {
         die Webseite dazu beiträgt, dass viele Menschen ein gesundes und
         glückliches Leben führen können.
       </p>
+      </div>
       <div className="LinkNächst">
         <Link to="/OnlineReciept">back</Link>
       </div>
