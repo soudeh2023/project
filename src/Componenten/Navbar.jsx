@@ -86,6 +86,14 @@ function Navbar() {
                 <button onClick={logout} className="LogoutBt">
                   Logout
                 </button>
+                <li>
+                  <Link to="/WarenKorb">
+                    <button>
+                      {/* <ShoppingCartIcon /> */}
+                      <p>WarenKorb</p>
+                    </button>
+                  </Link>
+                </li>
               </>
             )}
           </Link>

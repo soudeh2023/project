@@ -12,24 +12,24 @@
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+align-content: center;
   border: 2px solid lightgray;
   border-radius: 2rem;
   background-color: rgba(17, 16, 16, 0.857);
-  width: 85%;
+  width: 89%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .KarteRezept {
-  width: 16rem;
+  width: 17.8rem;
   height: 16rem;
   padding: 2rem;
   margin: 0.5rem;
-
   background-color: rgba(113, 89, 135, 0.499);
   color: whitesmoke;
   border: 2px solid darkgray;
   border-radius: 0.5rem;
-  text-align: center;
+ 
 }
 .Heartzbt {
   /* color: rgba(54, 5, 60, 0.403); */

@@ -13,7 +13,6 @@ function EndePage() {
             <input placeholder="Vornane"></input>
           </div>
           <div>
-            {" "}
             <label>Nachnane:</label>
             <input placeholder="Nachnane"></input>
           </div>
@@ -22,7 +21,6 @@ function EndePage() {
             <input placeholder="E-Mail"></input>
           </div>
           <div>
-            {" "}
             <label>Tel Nummer:</label>
             <input placeholder="Tel Nummer"></input>
           </div>
