@@ -6,6 +6,19 @@
   margin-top: 10rem;
   gap: 2rem;
 }
+.Rezept-Container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid lightgray;
+  border-radius: 2rem;
+  background-color: rgba(17, 16, 16, 0.857);
+  width: 80%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);
   display: flex;

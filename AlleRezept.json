@@ -158,7 +158,7 @@
       ],
       "instructions": "Thunfisch in Wasser kochen, mit Mais, gekochtem Reis, Kürbis und Babymilch pürieren."
     },
-    [
+    
       {
         "id": 15,
         "category": "fruit",
@@ -390,5 +390,4 @@
         "instructions": "Gedämpfter Blumenkohl mit Erbsen und gekochtem Reis vermengen. Kokosmilch hinzufügen."
       }
     ]
-  ]
 }

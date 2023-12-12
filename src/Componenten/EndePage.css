@@ -1,8 +1,12 @@
 .ContactContainer {
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  cla
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: lightgray;
+  width: 300px;
+  height: 400px;
+  margin-top: 5rem;
+  
+}
+div {
+  padding-bottom: 1rem;
 }

@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+// import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+// import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
-import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
+// import CottageRoundedIcon from "@mui/icons-material/CottageRounded";
 
 function Navbar() {
   const [user, setUser] = useState({ isLoggedIn: false });
