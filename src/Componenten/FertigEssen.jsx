@@ -56,7 +56,7 @@ function FertigEssen() {
         </ul>
       </div>
       <div className="LinkNächst">
-        <Link to="/ErnährungsPlanPage">back</Link>
+        <Link to="/OnlineReciept">back</Link>
         <Link to="/EndePage">Nächst</Link>
       </div>
     </div>
