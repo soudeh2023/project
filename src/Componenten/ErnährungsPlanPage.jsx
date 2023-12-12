@@ -17,7 +17,7 @@ function ErnährungsPlanPage() {
   return (
     <div>
       <h1 className="ProductenTitle">ErnährungsPlan</h1>
-      <button onClick={()=>setFilter(["fruit"])}>Filter Fruit</button>
+      {/* <button onClick={()=>setFilter(["fruit"])}>Filter Fruit</button> */}
       <div className="Plan-Container">
         {eplan.map((item) => (
           <div className="Karte" key={item.id} onClick={()=>setFilter([item.category])}>
@@ -46,7 +46,7 @@ function ErnährungsPlanPage() {
 
       <div className="LinkNächst">
         <Link to="/BabyCategorie">back</Link>
-        <Link to="/OnlineReciept">nächst</Link>
+        <Link to="/FertigEssen">nächst</Link>
       </div>
     </div>
   );

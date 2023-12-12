@@ -9,21 +9,27 @@ function OnlineReciept() {
 
   useEffect(() => {
     axios
-      .get("https://www.tagesschau.de/api2u/search/?searchText=fc bayern")
+      .get("https://www.tagesschau.de/api2u/search/?searchText=rezept")
       .then((res) => {
         console.log(res.data);
         setNews(res.data.searchResults[0].title);
-        setImg(res.data.searchResult[0].images[0].imageVariants["16x9-512"]);
-        setUrl(res.data.seachResults);
+        setImg(res.data.searchResults[0].images[0].imageVariants["16x9-512"]);
+        setUrl(res.data.seachResults.shreUrl);
       });
   }, []);
   return (
     <div>
       <div>OnlineReciept</div>
-      <h1>On line Rezept </h1>
+      <h1>Online Informationen</h1>
+      <img src={img} />
+      <p>{news}</p>
+      <a herf={url} target="_blank">
+        Weitere Informatonen
+      </a>
+
       <div>
-        <Link to="/ErnährungsPlanPage">back</Link>
-        <Link to="/FertigEssen">Nächst</Link>
+        <Link to="/FertigEssen">back</Link>
+        <Link to="/EndePage">Nächst</Link>
       </div>
     </div>
   );

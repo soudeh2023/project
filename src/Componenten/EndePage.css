@@ -1,14 +1,18 @@
 .ContactContainer {
-  width: 15rem;
+  width: 18rem;
   height: 20rem;
   border: 2px solid rgba(113, 89, 135, 0.762);
   background-color: rgba(119, 136, 153, 0.258);
   border-radius: 0.5rem;
   text-align: center;
   margin-top: 3rem;
-  padding: 2rem;
+  padding: 1.7rem;
   margin-left: calc(50% - 7.5rem);
+  text-align: left;
 }
 div {
   padding-bottom: 1rem;
+}
+.submitbt {
+  text-align: center;
 }

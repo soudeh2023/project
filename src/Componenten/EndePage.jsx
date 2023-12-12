@@ -24,7 +24,7 @@ function EndePage() {
             <label>Tel Nummer:</label>
             <input placeholder="Tel Nummer"></input>
           </div>
-          <submit></submit>
+          <submit className="submitbt">Submit</submit>
         </div>
       </div>
       <p>
@@ -41,7 +41,7 @@ function EndePage() {
         glückliches Leben führen können.
       </p>
       <div className="LinkNächst">
-        <Link to="/FertigEssen">back</Link>
+        <Link to="/OnlineReciept">back</Link>
       </div>
     </div>
   );
