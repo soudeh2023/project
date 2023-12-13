@@ -13,6 +13,7 @@ import WarenKorbPage from "./Componenten/WarenKorbPage";
 
 import "./App.css";
 import OnlineReciept from "./Componenten/OnlineReciept";
+import RecipesPage from "./Componenten/RecipesPage";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           <Route path="/EndePage/" Component={EndePage} />
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
+          <Route path="/OnlineReciept/" Component={OnlineReciept} />
+          <Route path="/RecipesPage/" Component={RecipesPage} />
+         
         </Routes>
       </BrowserRouter>
     </>

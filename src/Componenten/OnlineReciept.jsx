@@ -3,32 +3,53 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 function OnlineReciept() {
-  const [news, setNews] = useState();
-  const [img, setImg] = useState();
-  const [url, setUrl] = useState();
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
-      .get("https://www.tagesschau.de/api2u/search/?searchText=rezept")
+      .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        console.log(res.data);
-        setNews(res.data.searchResults[0].title);
-        setImg(res.data.searchResults[0].images[0].imageVariants["16x9-512"]);
-        setUrl(res.data.seachResults.shreUrl);
+        const first20Categories = res.data.categories.slice(0, 20);
+        setCategories(first20Categories);
+        setLoading(false);
       });
   }, []);
+
   return (
     <div>
       <div>OnlineReciept</div>
       <h1>Online Informationen</h1>
-      <img src={img} />
-      <p>{news}</p>
-      <a herf={url} target="_blank">
-        Weitere Informatonen
-      </a>
+      {loading ? (
+        <p>Lade Daten...</p>
+      ) : (
+        // <div>
+        //   {categories.map((category) => (
+        //     <div key={category.idCategory}>
+        //       <img src={category.strCategoryThumb} alt={category.strCategory} />
+        //       <p>{category.strCategory}</p>
+        //       <a href={category.strCategoryDescription} target="_blank" rel="noopener noreferrer">
+        //         Weitere Informationen
+        //       </a>
+        //     </div>
+       
+
+<div>
+  {categories.map((category) => (
+    <div key={category.idCategory}>
+      <img src={category.strCategoryThumb} alt={category.strCategory} />
+      <p>{category.strCategory}</p>
+      <Link to={`/recipes/${category.strCategory}`}>
+        Weitere Informationen
+      </Link>
+    </div>
+  ))}
+</div>
+
+      )}
 
       <div>
-        <Link to="/FertigEssen">back</Link>
+        <Link to="/FertigEssen">Zurück</Link>
         <Link to="/EndePage">Nächst</Link>
       </div>
     </div>

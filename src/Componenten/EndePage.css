@@ -4,13 +4,20 @@
   border: 2px solid rgba(113, 89, 135, 0.762);
   background-color: rgba(119, 136, 153, 0.258);
   border-radius: 0.5rem;
-  margin-top: 3rem;
-  padding: 1.7rem;
+  margin: 2rem;
   /* margin-left: calc(50% - 7.5rem); */
   text-align: left;
 }
+.ContactContain {
+  margin: 2rem;
+  padding: 0.2rem;
+  width: 16px;
+}
+
 div {
   padding-bottom: 1rem;
+  text-align: center;
+
 }
 .ContactContainerH {
   text-align: center;
@@ -20,14 +27,33 @@ div {
 }
 .BodyContainer {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 3rem;
-  
-  
+  border: 2px solid rgba(0, 0, 0, 0.73);
+  background-color: rgba(17, 16, 16, 0.857);
+  margin: 1rem;
+  color: wheat;
+  border-radius: 1rem;
+  width: 80%;
+  align-items: center;
+  /* justify-content: center; */
+
 }
+.ContactPar{
+  animation-direction: reverse;
+}
+
 .ContactPar {
   width: 50%;
   margin-top: 3ren;
   margin-left: 0;
- 
+  margin-right: 1rem;
+  line-height: 1.5rem;
+}
+.BodyContainer{
+margin-left:2rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+.EndeNächst{  color: beige;
 }

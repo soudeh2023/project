@@ -4,7 +4,7 @@ import "./EndePage.css";
 
 function EndePage() {
   return (
-    <div>
+    <div  className="BodyContainer">
       
       <div className="BodyContainer">
     
@@ -31,7 +31,7 @@ function EndePage() {
         </div>
       </div>
       <p className="ContactPar">
-        Wow, ich wollte mich bedanken, dass Sie meine Webseite besucht haben.
+        <h1>Hezlichen Dank</h1>, dass Sie meine Webseite besucht haben.
         Mein Ziel mit dieser Webseite ist es, Müttern, Kindern und schließlich
         allen Menschen auf spiritueller und physischer Ebene zu helfen. Die
         Webseite soll in der Zukunft als Plattform für umfassende Beratung
@@ -43,9 +43,10 @@ function EndePage() {
         die Webseite dazu beiträgt, dass viele Menschen ein gesundes und
         glückliches Leben führen können.
       </p>
+      
       </div>
       <div className="LinkNächst">
-        <Link to="/OnlineReciept">back</Link>
+        <Link  className= "EndeNächst"     to="/OnlineReciept">back</Link>
       </div>
     </div>
   );
