@@ -12,7 +12,7 @@ function ErnährungsPlanPage() {
   console.log(AlleRezept);
   const [filter, setFilter] = useState(["fruit", "Meer","Vegetable","Fleisch"]);
 
-  AlleRezept = AlleRezept.filter((item) => filter.includes(item.category));
+  AlleRezept = AlleRezept.filter((item) =>item.category.includes(filter));
 
   return (
     <div>

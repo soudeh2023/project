@@ -1,16 +1,14 @@
-// RecipesPage.jsx
+
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
 const RecipesPage = ({ match }) => {
   const category = match.params.category;
-
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
     axios
-      .get(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`)
+      .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
         setRecipes(res.data.meals || []);
       });
