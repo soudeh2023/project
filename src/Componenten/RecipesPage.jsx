@@ -10,15 +10,18 @@ function RecipesPage() {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        console.log(res.data.categories);
+       console.log(res.data.categories);
         setCategories(res.data.categories[0].strCategory);
-        setCategories(res.data.categories[0].strCategoryDescription);
+      setDescription(res.data.categories[0].strCategoryDescription);
       });
   }, []);
 
   return (
     <div>
-      <div>OnlineReciept</div>
+      <div> 
+        <p>{categories}</p>
+        <p>{description}</p>
+      </div>
       <h1>hello</h1>
       <div>
         <Link to="/OnlineReciept">Zurück</Link>

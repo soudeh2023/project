@@ -9,11 +9,10 @@ import Navbar from "./Componenten/Navbar";
 import login from "./Componenten/login";
 import ErnährungsPlanPage from "./Componenten/ErnährungsPlanPage";
 import EndePage from "./Componenten/EndePage";
-import WarenKorbPage from "./Componenten/WarenKorbPage";
-
 import "./App.css";
 import OnlineReciept from "./Componenten/OnlineReciept";
 import RecipesPage from "./Componenten/RecipesPage";
+import Warenkorb from "./Componenten/Warenkorb";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
           <Route path="PageÜberUns" Component={PageÜberuns} />
           <Route path="/BabyCategorie" Component={BabyCategorie} />
           <Route path="/fertigessen" Component={FertigEssen} />
-          <Route path="/WarenKorb" Component={WarenKorbPage} />
           <Route path="/product/:id" Component={PageProduct} />
           <Route path="/login/" Component={login} />
           <Route path="/EndePage/" Component={EndePage} />
@@ -34,7 +32,7 @@ function App() {
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/RecipesPage" component={RecipesPage} />
-          <Route path="/RecipesPage" component={RecipesPage} />
+          <Route path="/Warenkorb" component={Warenkorb} />
   
         </Routes>
       </BrowserRouter>

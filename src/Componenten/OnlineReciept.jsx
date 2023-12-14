@@ -4,6 +4,7 @@ import axios from "axios";
 
 function OnlineReciept() {
   const [categories, setCategories] = useState([]);
+  const [description,  setDescriptoin] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -17,7 +18,7 @@ function OnlineReciept() {
 
   return (
     <div>
-      <div>OnlineReciept</div>
+      <div>OnlineRecieption</div>
       <h1>Online Informationen</h1>
       {loading ? (
         <p>Lade Daten...</p>
@@ -27,6 +28,8 @@ function OnlineReciept() {
             <div key={category.idCategory}>
               <img src={category.strCategoryThumb} alt={category.strCategory} />
               <p>{category.strCategory}</p>
+              <p>{category.strCategoryDescription}</p>
+
               <Link to={`RecipesPage/${category.strCategory}`}>
                 Weitere Informationen
               </Link>

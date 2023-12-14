@@ -1,61 +1,96 @@
+
+
 nav {
-  background-color: rgba(113, 89, 135, 0.692);
   display: flex;
-  flex-direction: row;
-  height: 80px;
-  gap: 14rem;
-  align-items: center;
   justify-content: space-between;
-  padding: 1rem;
-  margin: 0;
-}
-nav button {
-  background: none;
-  border: none;
   align-items: center;
-
-  color: rgba(54, 5, 60, 0.403);
+  padding: 10px 20px;
+  background-color: rgba(113, 89, 135, 0.692);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-nav button:hover {
-  transition: 0.7s;
-  font-size: larger;
 
-  color: rgba(54, 5, 60, 0.751);
+.Navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
 }
-nav .Navbar-picture {
+
+.Navbar-picture {
+  width: 50px;
   height: 50px;
-  margin-top: 7px;
-  margin-left: 8px;
+  border-radius: 25px;
+  margin-right: 10px;
 }
-nav .Navbar-logo-text {
+
+.Navbar-logo-text {
   text-align: center;
   padding: 0;
   margin: 1px;
   font-size: 0.7rem;
   text-decoration-style: wavy;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  transition-duration: 0.5s;
-  font-size: 0.75rem;
-  transition: 0.4s;
-  color: rgba(113, 89, 135, 0.499);
-}
-
-.Navbar-logo {
-  height: 55px;
-}
-.NavLinks :hover {
-  font-size: larger;
-  align-items: center;
-}
 
 .navbar-inner {
   display: flex;
+  align-items: center;
+}
+
+.NavLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.NavLinks li {
+  position: relative;
+}
+
+.NavLinks button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgba(54, 5, 60, 0.403);
+}
+
+.NavLinks.show {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #333;
+  width: 100%;
+}
+
+.LogInButton button {
+  display: flex;
+  align-items: center;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+  
+  .NavLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .NavLinks.show {
+    display: flex;
+  }
 }
