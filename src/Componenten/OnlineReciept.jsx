@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import "./OnlineReciept.css";
 
 function OnlineReciept() {
   const [categories, setCategories] = useState([]);
@@ -17,7 +18,7 @@ function OnlineReciept() {
   }, []);
 
   return (
-    <div>
+    <div className=" OnlineRecieptBody">
       <div>OnlineRecieption</div>
       <h1>Online Informationen</h1>
       {loading ? (
