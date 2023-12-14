@@ -3,9 +3,14 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-top: 10rem;
+
+  margin-top: 4rem;
   gap: 2rem;
 }
+/* .ErnährungsPlanPar{
+   */
+
+/* } */
 .Rezept-Container {
   display: inline-flex;
   flex-direction: row;
@@ -16,7 +21,7 @@ align-content: center;
   border: 2px solid lightgray;
   border-radius: 2rem;
   background-color: rgba(17, 16, 16, 0.857);
-  width: 89%;
+  width:90%;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -50,4 +55,34 @@ align-content: center;
   margin-left: 0;
   margin-right: 5rem;
   border-radius: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .KarteRezept {
+    width: 75%;
+    height: 65%;
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: rgba(113, 89, 135, 0.499);
+    color: whitesmoke;
+    border: 2px solid darkgray;
+    border-radius: 0.5rem;
+   
+  }
+  .Karte {
+    width: 75%;
+    height: 65%;
+    padding: 2rem;
+    margin: 0.5rem;
+    background-color: rgba(113, 89, 135, 0.499);
+    color: whitesmoke;
+    border: 2px solid darkgray;
+    border-radius: 0.5rem;
+ 
+}
+.Plan-Container {
+ 
+  flex-wrap: wrap;
+  
+}
+
 }

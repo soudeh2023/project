@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import AccountCircleTwoToneIcon from "@mui/icons-material/AccountCircleTwoTone";
 import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
-
+import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -48,7 +48,7 @@ function Navbar() {
         </li>
         <li className="LogInButton">
           <button onClick={toggleMenu}>
-            {!showMenu ? <AccountCircleTwoToneIcon /> : "Close"}
+            {!showMenu ? <AccountCircleTwoToneIcon /> : <CloseRoundedIcon/>}
           </button>
         </li>
       </ul>

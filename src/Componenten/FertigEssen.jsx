@@ -24,8 +24,8 @@ function FertigEssen() {
 
   return (
     <div>
-      <p>
-        <h1>Fertig Essen sind Gesund oder.....</h1>
+      <h1>Fertig Essen sind Gesund oder.....</h1>
+      <p className="FertidEssenPar">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit
         maiores corporis animi, alias quos atque cumque aliquam deleniti est
         quia veritatis debitis voluptatibus sit possimus nam, tempore ducimus .

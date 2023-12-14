@@ -1,5 +1,3 @@
-
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -55,13 +53,10 @@ nav {
 }
 
 .NavLinks.show {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 60px;
+  /* position: absolute; */
   right: 0;
-  background-color: #333;
-  width: 100%;
+  width: 30%;
+  border-radius: 1rem;
 }
 
 .LogInButton button {
@@ -79,7 +74,7 @@ nav {
   .burger-menu {
     display: block;
   }
-  
+
   .NavLinks {
     display: none;
     flex-direction: column;
@@ -87,10 +82,11 @@ nav {
     top: 60px;
     right: 0;
     background-color: #333;
-    width: 100%;
+    width: 10%;
   }
 
   .NavLinks.show {
     display: flex;
+    background-color: rgb(113, 89, 135);
   }
 }

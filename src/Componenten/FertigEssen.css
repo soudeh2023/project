@@ -21,6 +21,10 @@ body {
   border-radius: 0.5rem;
   text-align: center;
 }
+.FertidEssenPar{ text-align: justify;
+  margin:2rem
+
+}
 
 .alleFertigEssen {
   display: inline-flex;

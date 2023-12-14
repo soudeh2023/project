@@ -15,7 +15,8 @@ function ErnährungsPlanPage() {
   AlleRezept = AlleRezept.filter((item) =>item.category.includes(filter));
 
   return (
-    <div>
+    
+       <div className="ErnährungsPlanPar">
       <h1 className="ProductenTitle">ErnährungsPlan</h1>
       {/* <button onClick={()=>setFilter(["fruit"])}>Filter Fruit</button> */}
       <div className="Plan-Container">
@@ -25,6 +26,7 @@ function ErnährungsPlanPage() {
             <img className="Product-picture" src={item.image_url} alt="" />
             <li>{item.name}</li>
           </div>
+
         ))}
       </div>
       <h1 className="AlleReciept">Alle Rezept</h1>
