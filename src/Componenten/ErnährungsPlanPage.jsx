@@ -10,7 +10,7 @@ function ErnährungsPlanPage() {
   console.log(eplan);
   let AlleRezept = Reciept.Reciept;
   console.log(AlleRezept);
-  const [filter, setFilter] = useState(["fruit", "Meer","Vegetable","Fleisch"]);
+  const [filter, setFilter] = useState([]);
 
   AlleRezept = AlleRezept.filter((item) =>item.category.includes(filter));
 
