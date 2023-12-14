@@ -2,36 +2,24 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-function OnlineReciept() {
+function RecipesPage() {
   const [categories, setCategories] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [description, setDescription] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        setCategories(res.data.categories);
-        setLoading(false);
+        console.log(res.data.categories);
+        setCategories(res.data.categories[0].strCategory);
+        setCategories(res.data.categories[0].strCategoryDescription);
       });
   }, []);
 
   return (
     <div>
       <div>OnlineReciept</div>
-      <h1>Online Informationen</h1>
-      {loading ? (
-        <p>Lade Daten...</p>
-      ) : (
-        <div>
-          {categories.map((category) => (
-            <div key={category.idCategory}>
-              <p>{category.strCategory}</p>
-              <p>{category.strCategoryDescription}</p>
-            </div>
-          ))}
-        </div>
-      )}
-
+      <h1>hello</h1>
       <div>
         <Link to="/OnlineReciept">Zurück</Link>
         <Link to="/EndePage">Nächst</Link>
@@ -40,4 +28,4 @@ function OnlineReciept() {
   );
 }
 
-export default OnlineReciept;
+export default RecipesPage;
