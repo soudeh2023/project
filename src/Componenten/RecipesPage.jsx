@@ -1,31 +1,35 @@
 
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-const RecipesPage = ({ match }) => {
-  const category = match.params.category;
-  const [recipes, setRecipes] = useState([]);
+import { Link } from "react-router-dom";
+
+function RecipesPage() {
+  const [categories, setCategories] = useState([]);
+  const [description, setDescription] = useState([]);
 
   useEffect(() => {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        setRecipes(res.data.meals || []);
+        console.log(res.categories);
+        setCategories(res.categories[0].strCategory);
+        setDescription(res.categories[0].strCategoryDescription);
       });
-  }, [category]);
-
+  }, []);
   return (
     <div>
-      <h1>Rezepte für {category}</h1>
-      {recipes.map((recipe) => (
-        <div key={recipe.idMeal}>
-          <img src={recipe.strMealThumb} alt={recipe.strMeal} />
-          <p>{recipe.strMeal}</p>
-          <p>{recipe.strInstructions}</p>
-        </div>
-      ))}
+    <div>
+      <h1>Hallo</h1>
+      <p>{categories}</p>
+      <p>{description}</p>
     </div>
+    
+    <div>
+    <Link to="/FertigEssen">Zurück</Link>
+    <Link to="/EndePage">Nächst</Link>
+  </div>
+  </div>
   );
-};
+}
 
 export default RecipesPage;

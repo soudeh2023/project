@@ -34,7 +34,7 @@ function App() {
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
-          <Route path="/RecipesPage/" Component={RecipesPage} />
+          <Route path="/RecipesPage" component={RecipesPage} />
          
         </Routes>
       </BrowserRouter>
