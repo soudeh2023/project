@@ -1,35 +1,43 @@
-
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
-function RecipesPage() {
+function OnlineReciept() {
   const [categories, setCategories] = useState([]);
-  const [description, setDescription] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        console.log(res.categories);
-        setCategories(res.categories[0].strCategory);
-        setDescription(res.categories[0].strCategoryDescription);
+        setCategories(res.data.categories);
+        setLoading(false);
       });
   }, []);
+
   return (
     <div>
-    <div>
-      <h1>Hallo</h1>
-      <p>{categories}</p>
-      <p>{description}</p>
+      <div>OnlineReciept</div>
+      <h1>Online Informationen</h1>
+      {loading ? (
+        <p>Lade Daten...</p>
+      ) : (
+        <div>
+          {categories.map((category) => (
+            <div key={category.idCategory}>
+              <p>{category.strCategory}</p>
+              <p>{category.strCategoryDescription}</p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div>
+        <Link to="/OnlineReciept">Zurück</Link>
+        <Link to="/EndePage">Nächst</Link>
+      </div>
     </div>
-    
-    <div>
-    <Link to="/FertigEssen">Zurück</Link>
-    <Link to="/EndePage">Nächst</Link>
-  </div>
-  </div>
   );
 }
 
-export default RecipesPage;
+export default OnlineReciept;

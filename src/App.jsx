@@ -23,7 +23,6 @@ function App() {
         <Routes>
           <Route path="/" Component={PageHome} />
           <Route path="/PageHome" Component={PageHome} />
-          {/* <Route path="/GesundEssenPageInfo" Component={GesundEssenPageInfo} /> */}
           <Route path="PageÜberUns" Component={PageÜberuns} />
           <Route path="/BabyCategorie" Component={BabyCategorie} />
           <Route path="/fertigessen" Component={FertigEssen} />
@@ -35,7 +34,7 @@ function App() {
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/RecipesPage" component={RecipesPage} />
-         
+  
         </Routes>
       </BrowserRouter>
     </>

@@ -10,8 +10,7 @@ function OnlineReciept() {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/categories.php")
       .then((res) => {
-        const first20Categories = res.data.categories.slice(0, 20);
-        setCategories(first20Categories);
+        setCategories(res.data.categories);
         setLoading(false);
       });
   }, []);
@@ -23,29 +22,17 @@ function OnlineReciept() {
       {loading ? (
         <p>Lade Daten...</p>
       ) : (
-        // <div>
-        //   {categories.map((category) => (
-        //     <div key={category.idCategory}>
-        //       <img src={category.strCategoryThumb} alt={category.strCategory} />
-        //       <p>{category.strCategory}</p>
-        //       <a href={category.strCategoryDescription} target="_blank" rel="noopener noreferrer">
-        //         Weitere Informationen
-        //       </a>
-        //     </div>
-       
-
-<div>
-  {categories.map((category) => (
-    <div key={category.idCategory}>
-      <img src={category.strCategoryThumb} alt={category.strCategory} />
-      <p>{category.strCategory}</p>
-      <Link to={`/recipes/${category.strCategory}`}>
-        Weitere Informationen
-      </Link>
-    </div>
-  ))}
-</div>
-
+        <div>
+          {categories.map((category) => (
+            <div key={category.idCategory}>
+              <img src={category.strCategoryThumb} alt={category.strCategory} />
+              <p>{category.strCategory}</p>
+              <Link to={`RecipesPage/${category.strCategory}`}>
+                Weitere Informationen
+              </Link>
+            </div>
+          ))}
+        </div>
       )}
 
       <div>
