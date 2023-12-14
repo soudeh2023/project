@@ -12,21 +12,23 @@ function ErnährungsPlanPage() {
   console.log(AlleRezept);
   const [filter, setFilter] = useState([]);
 
-  AlleRezept = AlleRezept.filter((item) =>item.category.includes(filter));
+  AlleRezept = AlleRezept.filter((item) => item.category.includes(filter));
 
   return (
-    
-       <div className="ErnährungsPlanPar">
+    <div className="ErnährungsPlanPar">
       <h1 className="ProductenTitle">ErnährungsPlan</h1>
       {/* <button onClick={()=>setFilter(["fruit"])}>Filter Fruit</button> */}
       <div className="Plan-Container">
         {eplan.map((item) => (
-          <div className="Karte" key={item.id} onClick={()=>setFilter([item.category])}>
+          <div
+            className="Karte"
+            key={item.id}
+            onClick={() => setFilter([item.category])}
+          >
             <li>{item.description}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
             <li>{item.name}</li>
           </div>
-
         ))}
       </div>
       <h1 className="AlleReciept">Alle Rezept</h1>
@@ -35,6 +37,7 @@ function ErnährungsPlanPage() {
           <div className="KarteRezept" key={item.id}>
             <li>{item.category}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
+            {/* <img className="Product-picture" src={item.image_url} alt="" /> */}
             <li>{item.name}</li>
             <li>{item.ingredients}</li>
             <li>{item.instructions}</li>

@@ -4,7 +4,7 @@
     "id": 1,
     "name": "Gemüsebrei",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/logo.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Gemüsebrei für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Karotten", "Erbsen"],
     "nutritional_info": {
@@ -18,7 +18,7 @@
     "id": 2,
     "name": "Fruchtpüree",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/fruchtpuree.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Fruchtpüree für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Äpfel", "Bananen", "Birnen"],
     "nutritional_info": {
@@ -32,7 +32,7 @@
     "id": 3,
     "name": "Reisbrei mit Milch",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/reisbrei.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Reisbrei mit Milch für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Reis", "Milch", "Vanille"],
     "nutritional_info": {
@@ -46,7 +46,7 @@
     "id": 4,
     "name": "Hirsebällchen",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/hirseballchen.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Hirsebällchen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Hirse", "Bananen", "Kokosöl"],
     "nutritional_info": {
@@ -60,7 +60,7 @@
     "id": 5,
     "name": "Bio-Gemüsemix",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/bio-gemusemix.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Bio-Gemüsemix für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Bio-Karotten", "Bio-Zucchini", "Bio-Kartoffeln"],
     "nutritional_info": {
@@ -74,7 +74,7 @@
     "id": 6,
     "name": "Haferflockenbrei mit Beeren",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/haferflockenbrei.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Haferflockenbrei mit Beeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Blaubeeren", "Himbeeren"],
     "nutritional_info": {
@@ -88,7 +88,7 @@
     "id": 7,
     "name": "Geflügelbrei mit Kartoffeln",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/geflugelbrei.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein Geflügelbrei mit Kartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Hühnerfleisch", "Kartoffeln", "Karotten"],
     "nutritional_info": {
@@ -102,7 +102,7 @@
     "id": 8,
     "name": "Quinoa mit Gemüse",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/quinoa.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Quinoa mit Gemüse für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Quinoa", "Brokkoli", "Tomaten"],
     "nutritional_info": {
@@ -116,7 +116,7 @@
     "id": 9,
     "name": "Buchweizenpfannkuchen",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/buchweizenpfannkuchen.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Buchweizenpfannkuchen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Buchweizenmehl", "Äpfel", "Zimt"],
     "nutritional_info": {
@@ -130,7 +130,7 @@
     "id": 10,
     "name": "Linsensuppe mit Gemüse",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/linsensuppe.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Eine Linsensuppe mit Gemüse für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Linsen", "Sellerie", "Karotten"],
     "nutritional_info": {
@@ -144,7 +144,7 @@
     "id": 11,
     "name": "Banane & Avocado Brei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/banane_avocado_brei.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein köstlicher Brei aus Bananen und Avocado für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Banane", "Avocado", "Haferflocken"],
     "nutritional_info": {
@@ -158,7 +158,7 @@
     "id": 12,
     "name": "Joghurt mit Beeren",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/joghurt_beeren.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Fruchtiger Joghurt mit gemischten Beeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Naturjoghurt", "Heidelbeeren", "Himbeeren"],
     "nutritional_info": {
@@ -172,7 +172,7 @@
     "id": 13,
     "name": "Mango-Brokkoli Püree",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/mango_brokkoli_puree.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein mildes Püree aus Mango und Brokkoli für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Mango", "Brokkoli", "Reis"],
     "nutritional_info": {
@@ -186,7 +186,7 @@
     "id": 14,
     "name": "Spinat-Kartoffel Auflauf",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/spinat_kartoffel_auflauf.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein gesunder Auflauf aus Spinat und Kartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Frischer Spinat", "Kartoffeln", "Käse"],
     "nutritional_info": {
@@ -200,7 +200,7 @@
     "id": 15,
     "name": "Erdbeer-Haferflocken Riegel",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/erdbeer_haferflocken_riegel.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Gesunde Haferflocken Riegel mit frischen Erdbeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Erdbeeren", "Honig"],
     "nutritional_info": {
@@ -214,7 +214,7 @@
     "id": 16,
     "name": "Kürbis-Süßkartoffel Mash",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/kurbis_susskartoffel_mash.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein cremiges Mash aus Kürbis und Süßkartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kürbis", "Süßkartoffeln", "Butter"],
     "nutritional_info": {
@@ -228,7 +228,7 @@
     "id": 17,
     "name": "Griechischer Joghurt mit Pfirsich",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/griechischer_joghurt_pfirsich.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Griechischer Joghurt mit frischen Pfirsichen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Griechischer Joghurt", "Pfirsiche", "Honig"],
     "nutritional_info": {
@@ -242,7 +242,7 @@
     "id": 18,
     "name": "Tomaten-Pasta Fingerfood",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/tomaten_pasta_fingerfood.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Leckeres Fingerfood aus Tomaten und Pasta für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Vollkorn-Pasta", "Tomaten", "Parmesan"],
     "nutritional_info": {
@@ -256,7 +256,7 @@
     "id": 19,
     "name": "Blaubeer-Haferkekse",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/blaubeer_haferkekse.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Zarte Haferkekse mit frischen Blaubeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Blaubeeren", "Butter"],
     "nutritional_info": {
@@ -270,7 +270,7 @@
     "id": 20,
     "name": "Avocado-Himbeer Smoothie",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/avocado_himbeer_smoothie.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein erfrischender Smoothie aus Avocado und Himbeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Avocado", "Himbeeren", "Joghurt"],
     "nutritional_info": {
@@ -284,7 +284,7 @@
     "id": 21,
     "name": "Süßkartoffel-Karotten Püree",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/susskartoffel_karotten_puree.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Ein zartes Püree aus Süßkartoffeln und Karotten für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Süßkartoffeln", "Karotten", "Olivenöl"],
     "nutritional_info": {
@@ -298,7 +298,7 @@
     "id": 22,
     "name": "Bananenpfannkuchen",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/bananenpfannkuchen.jpg",
+    "image_url": "/images/f1.jpg",
     "description": "Luftige Pfannkuchen mit Bananen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Mehl", "Bananen", "Ei"],
     "nutritional_info": {

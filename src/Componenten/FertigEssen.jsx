@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./FertigEssen.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
@@ -8,7 +9,20 @@ import Data from "../../db.json";
 
 function FertigEssen() {
   const data2 = Data.data;
-  console.log(data2);
+const filterData=()=> {
+  setCart([...cart,item.id] )
+
+//  data2= data2.filter((item) =>item.category.includes(cart));
+
+
+}
+
+  // console.log(data2);
+
+
+  const[cart,setCart]=useState([]);
+  console.log(cart);
+
   // const [data, setData] = useState([]);
   // useEffect(() => {
   //   axios
@@ -24,6 +38,7 @@ function FertigEssen() {
 
   return (
     <div>
+
       <h1>Fertig Essen sind Gesund oder.....</h1>
       <p className="FertidEssenPar">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit
@@ -36,16 +51,19 @@ function FertigEssen() {
       </p>
       <div className="meinListFertigEssen">
         <h1 className="ProductenTitle">Producten</h1>
+<p>Waren Korb:{cart.length}</p>
+
         <ul className="alleFertigEssen">
           {data2.map((item) => (
             <div
               className="Karte"
               key={item.id}
-              onClick={() => alert(`Du hast Essen Nr. ${item.id} gewählt.`)}
+              onClick={filterData}
             >
-              <li>{item.description}</li>
-              <img className="Product-picture" src={item.image_url} alt="" />
               <li>{item.name}</li>
+              
+              <img className="Product-pictureFer" src={item.image_url} alt="" />
+              <li>{item.description}</li>
 
               <button className="WarenkorbIconFertigEssen">
                 <ShoppingCartIcon />

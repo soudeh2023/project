@@ -76,6 +76,7 @@ nav {
   }
 
   .NavLinks {
+    margin:1rem;
     display: none;
     flex-direction: column;
     position: absolute;
