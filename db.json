@@ -18,7 +18,7 @@
     "id": 2,
     "name": "Fruchtpüree",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/püree.jpg",
     "description": "Ein Fruchtpüree für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Äpfel", "Bananen", "Birnen"],
     "nutritional_info": {
@@ -32,7 +32,7 @@
     "id": 3,
     "name": "Reisbrei mit Milch",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/reicemilch.jpg",
     "description": "Ein Reisbrei mit Milch für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Reis", "Milch", "Vanille"],
     "nutritional_info": {
@@ -46,7 +46,7 @@
     "id": 4,
     "name": "Hirsebällchen",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Hirsebällchen.jpg",
     "description": "Hirsebällchen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Hirse", "Bananen", "Kokosöl"],
     "nutritional_info": {
@@ -60,7 +60,7 @@
     "id": 5,
     "name": "Bio-Gemüsemix",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Bio-Gemüsemix.jpg",
     "description": "Ein Bio-Gemüsemix für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Bio-Karotten", "Bio-Zucchini", "Bio-Kartoffeln"],
     "nutritional_info": {
@@ -74,7 +74,7 @@
     "id": 6,
     "name": "Haferflockenbrei mit Beeren",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Haferflockenbrei mit Beeren.jpg",
     "description": "Ein Haferflockenbrei mit Beeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Blaubeeren", "Himbeeren"],
     "nutritional_info": {
@@ -88,7 +88,7 @@
     "id": 7,
     "name": "Geflügelbrei mit Kartoffeln",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Geflügelbrei mit Kartoffeln.jpg",
     "description": "Ein Geflügelbrei mit Kartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Hühnerfleisch", "Kartoffeln", "Karotten"],
     "nutritional_info": {
@@ -102,7 +102,7 @@
     "id": 8,
     "name": "Quinoa mit Gemüse",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Quinoa mit Gemüse.jpg",
     "description": "Quinoa mit Gemüse für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Quinoa", "Brokkoli", "Tomaten"],
     "nutritional_info": {
@@ -116,7 +116,7 @@
     "id": 9,
     "name": "Buchweizenpfannkuchen",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Buchweizenpfannkuchen.jpg",
     "description": "Buchweizenpfannkuchen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Buchweizenmehl", "Äpfel", "Zimt"],
     "nutritional_info": {
@@ -130,7 +130,7 @@
     "id": 10,
     "name": "Linsensuppe mit Gemüse",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Linsensuppe.jpg",
     "description": "Eine Linsensuppe mit Gemüse für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Linsen", "Sellerie", "Karotten"],
     "nutritional_info": {
@@ -144,7 +144,7 @@
     "id": 11,
     "name": "Banane & Avocado Brei",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Banane & Avocado Bre.jpg",
     "description": "Ein köstlicher Brei aus Bananen und Avocado für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Banane", "Avocado", "Haferflocken"],
     "nutritional_info": {
@@ -158,7 +158,7 @@
     "id": 12,
     "name": "Joghurt mit Beeren",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/yogurt.jpg",
     "description": "Fruchtiger Joghurt mit gemischten Beeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Naturjoghurt", "Heidelbeeren", "Himbeeren"],
     "nutritional_info": {
@@ -172,7 +172,7 @@
     "id": 13,
     "name": "Mango-Brokkoli Püree",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Mango-Brokkoli Püree.jpg",
     "description": "Ein mildes Püree aus Mango und Brokkoli für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Mango", "Brokkoli", "Reis"],
     "nutritional_info": {
@@ -186,7 +186,7 @@
     "id": 14,
     "name": "Spinat-Kartoffel Auflauf",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Spinat-Kartoffel Auflauf.jpg",
     "description": "Ein gesunder Auflauf aus Spinat und Kartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Frischer Spinat", "Kartoffeln", "Käse"],
     "nutritional_info": {
@@ -200,7 +200,7 @@
     "id": 15,
     "name": "Erdbeer-Haferflocken Riegel",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Erdbeer-Haferflocken Riegel.jpg",
     "description": "Gesunde Haferflocken Riegel mit frischen Erdbeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Erdbeeren", "Honig"],
     "nutritional_info": {
@@ -214,7 +214,7 @@
     "id": 16,
     "name": "Kürbis-Süßkartoffel Mash",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Kürbis-Süßkartoffel Mash.jpg",
     "description": "Ein cremiges Mash aus Kürbis und Süßkartoffeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kürbis", "Süßkartoffeln", "Butter"],
     "nutritional_info": {
@@ -228,7 +228,7 @@
     "id": 17,
     "name": "Griechischer Joghurt mit Pfirsich",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Pfirsich.jpg",
     "description": "Griechischer Joghurt mit frischen Pfirsichen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Griechischer Joghurt", "Pfirsiche", "Honig"],
     "nutritional_info": {
@@ -242,7 +242,7 @@
     "id": 18,
     "name": "Tomaten-Pasta Fingerfood",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Tomatenp.jpg",
     "description": "Leckeres Fingerfood aus Tomaten und Pasta für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Vollkorn-Pasta", "Tomaten", "Parmesan"],
     "nutritional_info": {
@@ -256,7 +256,7 @@
     "id": 19,
     "name": "Blaubeer-Haferkekse",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Blaubeer-Haferkekse.jpg",
     "description": "Zarte Haferkekse mit frischen Blaubeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Blaubeeren", "Butter"],
     "nutritional_info": {
@@ -270,7 +270,7 @@
     "id": 20,
     "name": "Avocado-Himbeer Smoothie",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Avocado-Himbeer Smoothie.jpg",
     "description": "Ein erfrischender Smoothie aus Avocado und Himbeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Avocado", "Himbeeren", "Joghurt"],
     "nutritional_info": {
@@ -284,7 +284,7 @@
     "id": 21,
     "name": "Süßkartoffel-Karotten Püree",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Süßkartoffel-Karotten Püree.jpg",
     "description": "Ein zartes Püree aus Süßkartoffeln und Karotten für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Süßkartoffeln", "Karotten", "Olivenöl"],
     "nutritional_info": {
@@ -298,7 +298,7 @@
     "id": 22,
     "name": "Bananenpfannkuchen",
     "age_group": "0-1 Jahre",
-    "image_url": "/images/f1.jpg",
+    "image_url": "/images/Bananenpfannkuchen.jpg",
     "description": "Luftige Pfannkuchen mit Bananen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Mehl", "Bananen", "Ei"],
     "nutritional_info": {
@@ -312,7 +312,7 @@
     "id": 23,
     "name": "Brokkoli-Cremesuppe",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/brokkoli_cremesuppe.jpg",
+    "image_url":"/images/Brokkoli-Cremesuppe.jpg",
     "description": "Eine sanfte Cremesuppe aus Brokkoli für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Brokkoli", "Kartoffeln", "Gemüsebrühe"],
     "nutritional_info": {
@@ -326,7 +326,7 @@
     "id": 24,
     "name": "Apfel-Zimt Brei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/apfel_zimt_brei.jpg",
+    "image_url": "/images/Apfel-Zimt Brei.jpg",
     "description": "Ein wohlschmeckender Brei aus Äpfeln und Zimt für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Äpfel", "Haferflocken", "Zimt"],
     "nutritional_info": {
@@ -340,7 +340,7 @@
     "id": 25,
     "name": "Papaya-Joghurt Becher",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/papaya_joghurt_becher.jpg",
+    "image_url": "/images/Papaya-Jo.jpg",
     "description": "Ein erfrischender Joghurt-Becher mit frischer Papaya für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Naturjoghurt", "Papaya", "Honig"],
     "nutritional_info": {
@@ -354,7 +354,7 @@
     "id": 26,
     "name": "Karotten-Reis Bällchen",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/karotten_reis_ballchen.jpg",
+    "image_url": "/images/Karotten-Reis Bällchen.jpg",
     "description": "Kleine Bällchen aus Karotten und Reis für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Karotten", "Reis", "Ei"],
     "nutritional_info": {
@@ -368,7 +368,7 @@
     "id": 27,
     "name": "Melonenmix Smoothie",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/melonenmix_smoothie.jpg",
+    "image_url": "/images/Melonenmix Smoothie.jpg",
     "description": "Ein erfrischender Smoothie mit verschiedenen Melonen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Wassermelone", "Honigmelone", "Cantaloupe"],
     "nutritional_info": {
@@ -382,7 +382,7 @@
     "id": 28,
     "name": "Kartoffel-Apfel Brei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/kartoffel_apfel_brei.jpg",
+    "image_url":" /images/Kartoffel-Apfel Brei.jpg",
     "description": "Ein sanfter Brei aus Kartoffeln und Äpfeln für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Äpfel", "Zimt"],
     "nutritional_info": {
@@ -396,7 +396,7 @@
     "id": 29,
     "name": "Pflaumen-Haferriegel",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/pflaumen_haferriegel.jpg",
+    "image_url": "/images/Pflaumen-Haferriegel.jpg",
     "description": "Haferriegel mit getrockneten Pflaumen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Pflaumen", "Honig"],
     "nutritional_info": {
