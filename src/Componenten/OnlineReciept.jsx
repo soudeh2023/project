@@ -19,27 +19,27 @@ function OnlineReciept() {
 
   return (
     <div className=" OnlineRecieptBody">
-      <div>OnlineRecieption</div>
+      {/* <div>OnlineRecieption</div> */}
       <h1>Online Informationen</h1>
       {loading ? (
         <p>Lade Daten...</p>
       ) : (
-        <div>
+        <div className="OnlineRecieptMap">
           {categories.map((category) => (
-            <div key={category.idCategory}>
-              <img src={category.strCategoryThumb} alt={category.strCategory} />
+            <div className="OnlineRecieptMapIn" key={category.idCategory}>
+              <img className="OnlineRecieptMapImg" src={category.strCategoryThumb} alt={category.strCategory} />
               <p>{category.strCategory}</p>
               <p>{category.strCategoryDescription}</p>
 
-              <Link to={`RecipesPage/${category.strCategory}`}>
+              {/* <Link to={`RecipesPage/${category.strCategory}`}>
                 Weitere Informationen
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>
       )}
 
-      <div>
+      <div className="NächstOnlineLink">
         <Link to="/FertigEssen">Zurück</Link>
         <Link to="/EndePage">Nächst</Link>
       </div>

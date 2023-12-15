@@ -21,16 +21,16 @@
   border: 2px solid lightgray;
   border-radius: 2rem;
   background-color: rgba(17, 16, 16, 0.857);
-  width: 90%;
-  padding-top: 0;
+  width: 95%;
+  padding-top: 5%;
+  padding-bottom:5%;
   margin-top: 0;
-  padding-bottom: 2rem;
 }
 .KarteRezept {
   width: 17.8rem;
   height: 20.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
   margin-top: 0;
   margin: 0.5rem;
   background-color: rgba(113, 89, 135, 0.499);

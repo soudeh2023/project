@@ -46,6 +46,11 @@ function Navbar() {
             <button>FertigEssen</button>
           </Link>
         </li>
+        <li>
+          <Link to="/OnlineReciept">
+            <button>Reciept</button>
+          </Link>
+        </li>
         <li className="LogInButton">
           <button onClick={toggleMenu}>
             {!showMenu ? <AccountCircleTwoToneIcon /> : <CloseRoundedIcon/>}
