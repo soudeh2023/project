@@ -410,7 +410,7 @@
     "id": 30,
     "name": "Birnen-Vollkornmuffins",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/birnen_vollkornmuffins.jpg",
+    "image_url": "/images/Birnen-Vollkornmuffins.jpg",
     "description": "Gesunde Vollkornmuffins mit frischen Birnen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Vollkornmehl", "Birnen", "Joghurt"],
     "nutritional_info": {
@@ -424,7 +424,7 @@
     "id": 31,
     "name": "Aprikosen-Haferbrei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/aprikosen_haferbrei.jpg",
+    "image_url": "/images/Aprikosen-Haferbrei.jpg",
     "description": "Ein süßer Haferbrei mit getrockneten Aprikosen für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Aprikosen", "Milch"],
     "nutritional_info": {
@@ -438,7 +438,7 @@
     "id": 32,
     "name": "Zucchini-Nudeln mit Tomatensauce",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/zucchini_nudeln_tomatensauce.jpg",
+    "image_url": "/images/Zucchini-Nudeln mit Tomatensauce.jpg",
     "description": "Gesunde Zucchini-Nudeln mit frischer Tomatensauce für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Zucchini", "Vollkornnudeln", "Tomaten"],
     "nutritional_info": {
@@ -452,7 +452,7 @@
     "id": 33,
     "name": "Erdnussbutter-Bananen Brotstücke",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/erdnussbutter_bananen_brotstucke.jpg",
+    "image_url": "/images/Erdnussbutter-Bananen Brotstücke.jpg",
     "description": "Brotstücke mit Erdnussbutter und Bananenbelag für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Vollkornbrot", "Erdnussbutter", "Bananen"],
     "nutritional_info": {
@@ -466,7 +466,7 @@
     "id": 34,
     "name": "Kartoffel-Karotten Rösti",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/kartoffel_karotten_rosti.jpg",
+    "image_url": "/images/Kartoffel-Karotten Rösti.jpg",
     "description": "Knusprige Rösti aus Kartoffeln und Karotten für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Karotten", "Olivenöl"],
     "nutritional_info": {
@@ -480,7 +480,7 @@
     "id": 35,
     "name": "Mangold-Quinoa Bowl",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/mangold_quinoa_bowl.jpg",
+    "image_url": "/images/Mangold-Quinoa Bowl.jpg",
     "description": "Eine nährstoffreiche Bowl mit Mangold und Quinoa für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Quinoa", "Mangold", "Tomaten"],
     "nutritional_info": {
@@ -494,7 +494,7 @@
     "id": 36,
     "name": "Heidelbeer-Haferbrei",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/heidelbeer_haferbrei.jpg",
+    "image_url": "/images/Heidelbeer-Haferbrei.jpg",
     "description": "Ein köstlicher Haferbrei mit frischen Heidelbeeren für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Heidelbeeren", "Milch"],
     "nutritional_info": {
@@ -508,7 +508,7 @@
     "id": 37,
     "name": "Petersilien-Kartoffelstampf",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/petersilien_kartoffelstampf.jpg",
+    "image_url": "/images/Petersilien-Kartoffelstampf.jpg",
     "description": "Ein geschmackvoller Kartoffelstampf mit frischer Petersilie für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Petersilie", "Butter"],
     "nutritional_info": {
@@ -522,7 +522,7 @@
     "id": 38,
     "name": "Kokosmilch-Haferriegel",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/kokosmilch_haferriegel.jpg",
+    "image_url": "/images/Kokosmilch-Haferriegel.jpg",
     "description": "Haferriegel mit Kokosmilch für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Haferflocken", "Kokosmilch", "Honig"],
     "nutritional_info": {
@@ -536,7 +536,7 @@
     "id": 39,
     "name": "Quark mit Himbeerpüree",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/quark_himbeerpuree.jpg",
+    "image_url": "/images/Quark mit Himbeerpüree.jpg",
     "description": "Quark mit frischem Himbeerpüree für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Quark", "Himbeeren", "Honig"],
     "nutritional_info": {
@@ -550,7 +550,7 @@
     "id": 40,
     "name": "Spargel-Kartoffelpüree",
     "age_group": "0-1 Jahre",
-    "image_url": "https://example.com/spargel_kartoffelpuree.jpg",
+    "image_url": "/images/Spargel-Kartoffelpüree.jpg",
     "description": "Zartes Kartoffelpüree mit Spargel für Babys von 0 bis 1 Jahr.",
     "ingredients": ["Kartoffeln", "Spargel", "Milch"],
     "nutritional_info": {
@@ -564,7 +564,7 @@
         "id": 41,
         "name": "Blaubeer-Bananen Pancakes",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/blaubeer_bananen_pancakes.jpg",
+        "image_url": "/images/Blaubeer-Bananen Pancakes.jpg",
         "description": "Luftige Pancakes mit Blaubeeren und Bananen für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Mehl", "Blaubeeren", "Bananen"],
         "nutritional_info": {
@@ -578,7 +578,7 @@
         "id": 42,
         "name": "Gurken-Dill Fingerfood",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/gurken_dill_fingerfood.jpg",
+        "image_url": "/images/Gurken-Dill Fingerfood.jpg",
         "description": "Erfrischendes Fingerfood mit Gurken und Dill für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Gurken", "Frühlingszwiebeln", "Dill"],
         "nutritional_info": {
@@ -592,7 +592,7 @@
         "id": 43,
         "name": "Pfirsich-Hafermuffins",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/pfirsich_hafermuffins.jpg",
+        "image_url": "/images/Pfirsich-Hafermuffins.jpg",
         "description": "Saftige Hafermuffins mit frischen Pfirsichen für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Haferflocken", "Pfirsiche", "Joghurt"],
         "nutritional_info": {
@@ -606,7 +606,7 @@
         "id": 44,
         "name": "Rote-Bete-Quark Dip",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/rote_bete_quark_dip.jpg",
+        "image_url": "/images/Rote-Bete-Quark Dip.jpg",
         "description": "Ein cremiger Quark-Dip mit frischer Rote Bete für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Quark", "Rote Bete", "Knoblauch"],
         "nutritional_info": {
@@ -618,9 +618,9 @@
       },
       {
         "id": 45,
-        "name": "Butternut-Kürbis Brei",
+        "name": "Rote-Bete-Quark Dipi",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/butternut_kurbis_brei.jpg",
+        "image_url": "/images/Rote-Bete-Quark Dipi.jpg",
         "description": "Ein samtiger Brei aus Butternut-Kürbis für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Butternut-Kürbis", "Reis", "Milch"],
         "nutritional_info": {
@@ -634,7 +634,7 @@
         "id": 46,
         "name": "Paprika-Hummus Snack",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/paprika_hummus_snack.jpg",
+        "image_url": "/images/Paprika-Hummus Snack.jpg",
         "description": "Ein würziger Hummus-Snack mit Paprika für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Kichererbsen", "Paprika", "Olivenöl"],
         "nutritional_info": {
@@ -648,7 +648,7 @@
         "id": 47,
         "name": "Buchweizen-Pfirsich Brei",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/buchweizen_pfirsich_brei.jpg",
+        "image_url": "/images/Buchweizen-Pfirsich Brei.jpg",
         "description": "Ein nahrhafter Brei aus Buchweizen und Pfirsichen für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Buchweizenmehl", "Pfirsiche", "Mandelmilch"],
         "nutritional_info": {
@@ -662,7 +662,7 @@
         "id": 48,
         "name": "Blumenkohl-Kartoffel Püree",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/blumenkohl_kartoffel_puree.jpg",
+        "image_url": "/images/Blumenkohl-Kartoffel Püree.jpg",
         "description": "Ein zartes Püree aus Blumenkohl und Kartoffeln für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Blumenkohl", "Kartoffeln", "Butter"],
         "nutritional_info": {
@@ -676,7 +676,7 @@
         "id": 49,
         "name": "Haferflocken-Birnen Riegel",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/haferflocken_birnen_riegel.jpg",
+        "image_url": "/images/Haferflocken-Birnen Riegel.jpg",
         "description": "Gesunde Haferflocken Riegel mit frischen Birnen für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Haferflocken", "Birnen", "Honig"],
         "nutritional_info": {
@@ -690,7 +690,7 @@
         "id": 50,
         "name": "Möhren-Ingwer Suppe",
         "age_group": "0-1 Jahre",
-        "image_url": "https://example.com/mohren_ingwer_suppe.jpg",
+        "image_url": "/images/Möhren-Ingwer Suppe.jpg",
         "description": "Eine wärmende Suppe aus Möhren und Ingwer für Babys von 0 bis 1 Jahr.",
         "ingredients": ["Möhren", "Ingwer", "Gemüsebrühe"],
         "nutritional_info": {
