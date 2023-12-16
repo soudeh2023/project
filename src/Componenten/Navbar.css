@@ -2,9 +2,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 2px;
+  padding: 20px;
   background-color: rgba(113, 89, 135, 0.692);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 10px 20px -10px rgb(96, 77, 113);
   height: 80px;
 }
 .Navbarpar{
