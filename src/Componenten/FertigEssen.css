@@ -54,6 +54,11 @@ body {
   height: 1.8rem;
   border-radius: 0.2rem;
 padding: 0.2rem;
+
+}
+.warenKorLink{
+  color: darkgray;
+  text-align: center;
 }
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);

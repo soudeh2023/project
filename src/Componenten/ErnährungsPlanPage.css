@@ -23,7 +23,7 @@
   background-color: rgba(17, 16, 16, 0.857);
   width: 95%;
   padding-top: 5%;
-  padding-bottom:5%;
+  padding-bottom: 5%;
   margin-top: 0;
 }
 .KarteRezept {
@@ -60,6 +60,11 @@
   width: 14.3rem;
   margin-left: 0;
   margin-right: 5rem;
+  border-radius: 0.5rem;
+}
+.Product-picture1 {
+  width: 14.3rem;
+  margin: 0.5rem, 3rem;
   border-radius: 0.5rem;
 }
 @media screen and (max-width: 768px) {

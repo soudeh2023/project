@@ -49,7 +49,7 @@ function ErnährungsPlanPage() {
         {AlleRezept.map((item) => (
           <div className="KarteRezept" key={item.id}>
             <li>{item.category}</li>
-            <img className="Product-picture" src={item.image_url} alt="" />
+            <img className="Product-picture1" src={item.image_url} alt="" />
             {/* <img className="Product-picture" src={item.image_url} alt="" /> */}
             <li>{item.name}</li>
             <li>{item.ingredients}</li>
