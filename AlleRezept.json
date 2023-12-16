@@ -267,7 +267,7 @@
         "id": 25,
         "category": "fruit",
         "name": "Birne-Zimt-Müsli",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Birne-Zimt-Müsli.jpg",
         "ingredients": ["Birnen", "Haferflocken", "Zimt", "Babymilch"],
         "instructions": "Geraspelte Birnen mit Haferflocken, einer Prise Zimt vermengen. Babymilch hinzufügen."
       },
@@ -275,7 +275,7 @@
         "id": 26,
         "category": "fruit",
         "name": "Mandarinen-Banane-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Mandarinen-Banane-Brei.jpg",
         "ingredients": ["Mandarinen", "Banane", "Quinoa", "Mandelmilch"],
         "instructions": "Pürierte Mandarinen mit pürierter Banane, gekochtem Quinoa vermengen. Mandelmilch hinzufügen."
       },
@@ -283,7 +283,7 @@
         "id": 27,
         "category": "fruit",
         "name": "Granatapfel-Apfel-Smoothie",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Granatapfel-Apfel-Smoothie.jpg",
         "ingredients": ["Granatapfelkerne", "Äpfel", "Joghurt", "Honig"],
         "instructions": "Granatapfelkerne mit pürierten Äpfeln, Joghurt und etwas Honig mixen."
       },
@@ -291,7 +291,7 @@
         "id": 28,
         "category": "fruit",
         "name": "Melonen-Papaya-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Melonen-Papaya-Brei.jpg",
         "ingredients": ["Melone", "Papaya", "Reis", "Kokosmilch"],
         "instructions": "Pürierte Melone mit pürierter Papaya, gekochtem Reis vermengen. Kokosmilch hinzufügen."
       },
@@ -299,7 +299,7 @@
         "id": 29,
         "category": "Meat",
         "name": "Hühnchen-Karotten-Püree",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Hühnchen-Karotten-Püre.jpg",
         "ingredients": [
           "Hühnchenbrust",
           "Karotte",
@@ -313,7 +313,7 @@
         "id": 30,
         "category": "Meat",
         "name": "Rindfleisch-Avocado-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Rindfleisch-Avocado-Brei.jpg",
         "ingredients": [
           "Rindfleisch",
           "Avocado",
@@ -327,7 +327,7 @@
         "id": 31,
         "category": "Meat",
         "name": "Lammfleisch-Kürbisbrei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/lam.jpg",
         "ingredients": [
           "Lammfleisch",
           "Kürbis",
@@ -341,7 +341,7 @@
         "id": 32,
         "category": "Meat",
         "name": "Putengemüsestampf",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Putengemüsestampf.jpg",
         "ingredients": [
           "Putenfleisch",
           "Kartoffeln",
@@ -355,7 +355,7 @@
         "id": 33,
         "category": "Vegetable",
         "name": "Karotten-Kartoffel-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Karotten-Kartoffel-Brei.jpg",
         "ingredients": ["Karotten", "Kartoffeln", "Zucchini", "Olivenöl"],
         "instructions": "Gedünstete Karotten mit gestampften Kartoffeln und Zucchini vermengen. Mit etwas Olivenöl verfeinern."
       },
@@ -363,7 +363,7 @@
         "id": 34,
         "category": "Vegetable",
         "name": "Brokkoli-Blumenkohl-Püree",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Brokkoli-Blumenkohl-Püree.jpg",
         "ingredients": ["Brokkoli", "Blumenkohl", "Süßkartoffel", "Rapsöl"],
         "instructions": "Gedämpfter Brokkoli mit püriertem Blumenkohl und Süßkartoffel. Mit etwas Rapsöl hinzufügen."
       },
@@ -371,7 +371,7 @@
         "id": 35,
         "category": "Vegetable",
         "name": "Spinat-Avocado-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Spinat-Avocado-Brei.jpg",
         "ingredients": ["Spinat", "Avocado", "Quinoa", "Babymilch"],
         "instructions": "Gedämpfter Spinat mit pürierter Avocado, gekochtem Quinoa vermengen. Babymilch hinzufügen."
       },
@@ -379,7 +379,7 @@
         "id": 36,
         "category": "Vegetable",
         "name": "Zucchinipüree mit Erbsen",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Zucchinipüree mit Erbsen.jpg",
         "ingredients": ["Zucchini", "Erbsen", "Reis", "Kokosöl"],
         "instructions": "Gedünstete Zucchini mit Erbsen und gekochtem Reis vermengen. Mit etwas Kokosöl verfeinern."
       },
@@ -387,7 +387,7 @@
         "id": 37,
         "category": "Vegetable",
         "name": "Kürbis-Kartoffelstampf",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Kürbis-Kartoffelstampf.jpg",
         "ingredients": ["Kürbis", "Kartoffeln", "Möhren", "Ghee"],
         "instructions": "Gedämpfter Kürbis mit gestampften Kartoffeln und Möhren vermengen. Mit etwas Ghee verfeinern."
       },
