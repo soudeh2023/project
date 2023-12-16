@@ -1,5 +1,4 @@
-.OnlineRecieptBody {
-}
+
 .OnlineRecieptMap {
   border: 2px solid rgb(220, 220, 220);
   border-radius: 4rem;
@@ -23,9 +22,27 @@
   /* box-sizing: border-box; */
   padding: 1rem;
   /* display: inline; */
+  border-radius: 2rem;
 }
 .OnlineRecieptMapIn > img {
-  width: 90%;
-  border: 0px transparent white;
+ border: 0px transparent white;
   box-sizing: border-box;
 }
+@media screen and (max-width: 768px) {
+.OnlineRecieptMapIn {
+  width: 80%;
+  border-radius: 2rem;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+.OnlineRecieptMap{
+  width: 90%;
+  padding: 10px;
+  margin-left: 12px;
+}
+.OnlineRecieptMapIn > img {
+  width: 80%;
+}
+.OnlineRecieptBody {padding-right: 1rem;
+}}
