@@ -395,7 +395,7 @@
         "id": 38,
         "category": "Vegetable",
         "name": "Süßkartoffel-Blumenkohl-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Süßkartoffel-Blumenkohl-Brei.jpg",
         "ingredients": ["Süßkartoffel", "Blumenkohl", "Linsen", "Rapsöl"],
         "instructions": "Gedämpfte Süßkartoffel mit püriertem Blumenkohl und gekochten Linsen vermengen. Mit etwas Rapsöl verfeinern."
       },
@@ -403,7 +403,7 @@
         "id": 39,
         "category": "Vegetable",
         "name": "Tomaten-Basilikum-Quinoa",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Tomaten-Basilikum-Quinoa.jpg",
         "ingredients": ["Tomaten", "Basilikum", "Quinoa", "Olivenöl"],
         "instructions": "Frische Tomaten mit gehacktem Basilikum und gekochtem Quinoa vermengen. Mit etwas Olivenöl verfeinern."
       },
@@ -411,7 +411,7 @@
         "id": 40,
         "category": "Vegetable",
         "name": "Paprika-Kartoffel-Ragout",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Paprika-Kartoffel-Ragout.jpg",
         "ingredients": ["Paprika", "Kartoffeln", "Grüne Bohnen", "Babymilch"],
         "instructions": "Gedünstete Paprika mit gestampften Kartoffeln und grünen Bohnen vermengen. Babymilch hinzufügen."
       },
@@ -419,7 +419,7 @@
         "id": 41,
         "category": "Vegetable",
         "name": "Sellerie-Zwiebel-Kartoffelbrei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Sellerie-Zwiebel-Kartoffelbrei.jpg",
         "ingredients": ["Sellerie", "Zwiebel", "Kartoffeln", "Rapsöl"],
         "instructions": "Gedünsteter Sellerie mit gedünsteter Zwiebel und gestampften Kartoffeln vermengen. Mit etwas Rapsöl verfeinern."
       },
@@ -427,7 +427,7 @@
         "id": 42,
         "category": "Vegetable",
         "name": "Blumenkohl-Erbsen-Creme",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Blumenkohl-Erbsen-Creme.jpg",
         "ingredients": ["Blumenkohl", "Erbsen", "Reis", "Kokosmilch"],
         "instructions": "Gedämpfter Blumenkohl mit Erbsen und gekochtem Reis vermengen. Kokosmilch hinzufügen."
       }
