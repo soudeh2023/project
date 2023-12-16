@@ -43,11 +43,11 @@ function FertigEssen() {
               <button
                 className="WarenkorbIconFertigEssen" 
                 onClick={() => handleBuyIcon(item.id)}
-              ><Link className="warenKorLink" to="Warenkorb">
-                <ShoppingCartIcon /> </Link>
+              >
+                <ShoppingCartIcon />
               </button>
             </div>
-            // <img src={item.image_url} alt="picture" srcset="" />
+            
           ))}
         </ul>
       </div>
