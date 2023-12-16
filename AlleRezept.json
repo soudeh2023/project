@@ -177,7 +177,7 @@
         "id": 15,
         "category": "fruit",
         "name": "Apfel-Birnen-Püree",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Apfel-Birnen-Püree.jpg",
         "ingredients": ["Äpfel", "Birnen", "Zimt", "Babymilch"],
         "instructions": "Gedünstete Äpfel mit pürierten Birnen und einer Prise Zimt vermengen. Babymilch hinzufügen."
       },
@@ -185,7 +185,7 @@
         "id": 16,
         "category": "fruit",
         "name": "Banane-Avocado-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Banane-Avocado-Brei.jpg",
         "ingredients": ["Banane", "Avocado", "Haferflocken", "Rapsöl"],
         "instructions": "Pürierte Banane mit pürierter Avocado und gekochten Haferflocken vermengen. Mit etwas Rapsöl verfeinern."
       },
@@ -193,7 +193,7 @@
         "id": 17,
         "category": "fruit",
         "name": "Blaubeer-Joghurt-Mix",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Blaubeer-Joghurt-Mix.jpg",
         "ingredients": [
           "Blaubeeren",
           "Naturjoghurt",
@@ -206,7 +206,7 @@
         "id": 18,
         "category": "fruit",
         "name": "Mango-Kiwi-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Mango-Kiwi-Brei.jpg",
         "ingredients": ["Mango", "Kiwi", "Quinoa", "Kokosmilch"],
         "instructions": "Pürierte Mango mit pürierter Kiwi, gekochtem Quinoa vermengen. Kokosmilch hinzufügen."
       },
@@ -214,7 +214,7 @@
         "id": 19,
         "category": "fruit",
         "name": "Pfirsich-Aprikosen-Creme",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Pfirsich-Aprikosen-Creme.jpg",
         "ingredients": ["Pfirsiche", "Aprikosen", "Reis", "Mandelmilch"],
         "instructions": "Pürierte Pfirsiche mit pürierten Aprikosen und gekochtem Reis vermengen. Mandelmilch hinzufügen."
       },
@@ -222,7 +222,7 @@
         "id": 20,
         "category": "fruit",
         "name": "Erdbeer-Bananen-Mix",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Erdbeer-Bananen-Mix.jpg",
         "ingredients": ["Erdbeeren", "Banane", "Haferflocken", "Babymilch"],
         "instructions": "Frische Erdbeeren mit pürierter Banane, gekochten Haferflocken vermengen. Babymilch hinzufügen."
       },
@@ -230,7 +230,7 @@
         "id": 21,
         "category": "fruit",
         "name": "Kirschen-Haferbrei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Kirschen-Haferbrei.jpg",
         "ingredients": [
           "Kirschen",
           "Haferflocken",
@@ -243,7 +243,7 @@
         "id": 22,
         "category": "fruit",
         "name": "Wassermelonen-Birnen-Smoothie",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Wassermelonen-Birnen-Smoothie.jpg",
         "ingredients": ["Wassermelone", "Birnen", "Joghurt", "Minze"],
         "instructions": "Fruchtfleisch der Wassermelone mit pürierter Birne, Joghurt und etwas Minze mixen."
       },
@@ -251,7 +251,7 @@
         "id": 23,
         "category": "fruit",
         "name": "Ananas-Mango-Brei",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Ananas-Mango-Brei.jpg",
         "ingredients": ["Ananas", "Mango", "Quinoa", "Kokosmilch"],
         "instructions": "Pürierte Ananas mit pürierter Mango, gekochtem Quinoa vermengen. Kokosmilch hinzufügen."
       },
@@ -259,7 +259,7 @@
         "id": 24,
         "category": "fruit",
         "name": "Himbeer-Apfel-Creme",
-        "image_url": "/images/2.jpg",
+        "image_url": "/images/Himbeer-Apfel-Creme.jpg",
         "ingredients": ["Himbeeren", "Äpfel", "Reis", "Mandelmilch"],
         "instructions": "Pürierte Himbeeren mit pürierten Äpfeln und gekochtem Reis vermengen. Mandelmilch hinzufügen."
       },
