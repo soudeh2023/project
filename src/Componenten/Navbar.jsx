@@ -18,11 +18,11 @@ function Navbar() {
       </div>
 
       <div className="navbar-inner">
-        <Link to="/Home" className="Navbar-logo">
+        <Link to="/PageHome" className="Navbar-logo">
           <FaceTwoToneIcon />
         </Link>
         <p className="Navbarpar">
-          Kleine Kinder && Gesund Essen
+                  Kleine Kinder && Gesund Essen
         </p>
       </div>
 
@@ -32,11 +32,11 @@ function Navbar() {
 
 
 <div  className={`NavLinks ${showMenu ? "show" : ""}` }>
-<p className="LogInButton">
+{/* <p className="LogInButton">
           <button  className="btClose" onClick={toggleMenu}>
             {!showMenu ? <AccountCircleTwoToneIcon /> : <CloseRoundedIcon/>}
           </button>
-        </p>
+        </p> */}
  
         <p>
           <Link to="/PageHome" >
@@ -56,6 +56,12 @@ function Navbar() {
         <p>
           <Link to="/OnlineReciept">
             <button className="bt">Reciept</button>
+          </Link>
+        </p>
+        
+        <p>
+          <Link to="/Online Rieciept" >
+            <button className="bt" ></button>
           </Link>
         </p>
         

@@ -7,32 +7,82 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   height: 80px;
 }
+.Navbarpar{
+  margin: 0;
+  padding: 0;
+}
+
 
 .Navbar-logo {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   text-decoration: none;
   color: #333;
+  size: 1rem;
 }
+.Navbar-logo:hover{  color: rgb(63, 0, 111); 
+  transform: rotate(-5deg);
+  animation: dance 1s ease-in-out;
+
+}
+
 
 .Navbar-picture {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  margin-right: 10px;
+  margin-left: 50px;
+
+
 }
 
-.Navbar-logo-text {
-  text-align: center;
-  padding: 0;
-  margin: 1px;
-  font-size: 0.7rem;
-  text-decoration-style: wavy;
+
+element.style {
+  font-size: 2rem;
+}
+@keyframes dance {
+  0% {
+      color: initial;
+      transform: rotate(0deg);
+  }
+  25% {
+      color: rgb(227, 136, 245); 
+      transform: rotate(-3deg);
+  }
+  50% {
+      color: rgb(114, 28, 115); 
+      transform: rotate(5deg);
+  }
+  75% {
+      color: rgb(63, 0, 111); 
+      transform: rotate(-3deg);
+  }
+  100% {
+      color: initial; /* Original color */
+      transform: rotate(0deg);
+  }
+}
+
+.Navbarpar {
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out; /* Add a transition effect for the color */
+}
+
+.Navbarpar:hover {
+  animation: dance 0.8s ease-in-out;
+}
+.bt:hover{
+  color: bisque;
+}
+.Navbarpar{
+  font-size: 30px;
+ color:  rgb(113, 89, 135);
 }
 
 .navbar-inner {
   display: flex;
-  align-items: center;
+  
 }
 
 .NavLinks {
@@ -43,28 +93,28 @@ nav {
 
 .NavLinks li {
   position: relative;
-  /* margin: 0;
-  padding: 0; */
+ 
 }
 .NavLinks button {
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  padding: 10px;
   color: rgba(54, 5, 60, 0.403);
 }
 
 .NavLinks.show {
-  /* position: absolute; */
+  position: absolute;
   right: 0;
   width: 25%;
   border-radius: 1rem;
 }
 
-.LogInButton button {
+/* .LogInButton button {
   display: flex;
   align-items: center;
-}
+} */
 
 .burger-menu {
   display: none;
