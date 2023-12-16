@@ -11,7 +11,7 @@ body {
 }
 .Karte {
   width: 12rem;
-  height: 13rem;
+  height: 14rem;
   padding: 1rem;
   margin: 0.5rem;
 
@@ -25,6 +25,7 @@ body {
   width: 8rem;
   border-radius: 0.5rem;
   margin-top: 0.4rem;
+  padding: 0.5rem;
 }
 .FertidEssenPar {
   text-align: justify;
@@ -41,15 +42,18 @@ body {
   border-radius: 2rem;
   background-color: rgba(17, 16, 16, 0.857);
   width: 80%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
+  /* line-height:100%; */
+  list-style: none;
 }
 
 .WarenkorbIconFertigEssen {
   background-color: rgba(113, 89, 135, 0.499);
   margin-top: 0.5rem;
-  width: 2rem;
-  height: 2rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 0.2rem;
+  justify-content: center;
 }
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);
@@ -59,4 +63,9 @@ body {
 }
 .LinkNächst a {
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .alleFertigEssen {
+    padding: 0.5rem;
+  }
 }
