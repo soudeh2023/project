@@ -22,7 +22,7 @@ function Navbar() {
           <FaceTwoToneIcon />
         </Link>
         <p className="Navbarpar">
-          Kleine Kinder && Gesund Essen<sup>".de"</sup>
+          Kleine Kinder && Gesund Essen
         </p>
       </div>
 
@@ -30,33 +30,37 @@ function Navbar() {
         &#9776; {/* Hamburger Icon */}
       </div>
 
-      <ul className={`NavLinks ${showMenu ? "show" : ""}`}>
-        <li>
-          <Link to="/PageHome">
-            <button>Home</button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/ErnährungsPlanPage">
-            <button>Plan</button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/FertigEssen">
-            <button>FertigEssen</button>
-          </Link>
-        </li>
-        <li>
-          <Link to="/OnlineReciept">
-            <button>Reciept</button>
-          </Link>
-        </li>
-        <li className="LogInButton">
-          <button onClick={toggleMenu}>
+
+<div  className={`NavLinks ${showMenu ? "show" : ""}` }>
+<p className="LogInButton">
+          <button  className="btClose" onClick={toggleMenu}>
             {!showMenu ? <AccountCircleTwoToneIcon /> : <CloseRoundedIcon/>}
           </button>
-        </li>
-      </ul>
+        </p>
+ 
+        <p>
+          <Link to="/PageHome" >
+            <button className="bt" >Home</button>
+          </Link>
+        </p>
+        <p>
+          <Link to="/ErnährungsPlanPage">
+            <button className="bt" >Plan</button>
+          </Link>
+        </p>
+        <p>
+          <Link to="/FertigEssen">
+            <button className="bt">FertigEssen</button>
+          </Link>
+        </p>
+        <p>
+          <Link to="/OnlineReciept">
+            <button className="bt">Reciept</button>
+          </Link>
+        </p>
+        
+
+      </div>
     </nav>
   );
 }

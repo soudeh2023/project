@@ -2,9 +2,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 2px;
+  padding: 20px 2px;
   background-color: rgba(113, 89, 135, 0.692);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 80px;
 }
 
 .Navbar-logo {
@@ -32,13 +33,12 @@ nav {
 .navbar-inner {
   display: flex;
   align-items: center;
-
 }
 
 .NavLinks {
   list-style: none;
   display: flex;
-align-items: baseline;
+  align-items: baseline;
 }
 
 .NavLinks li {
@@ -52,7 +52,6 @@ align-items: baseline;
   cursor: pointer;
   font-size: 0.8rem;
   color: rgba(54, 5, 60, 0.403);
-
 }
 
 .NavLinks.show {
@@ -79,18 +78,42 @@ align-items: baseline;
   }
 
   .NavLinks {
-    margin: 1rem;
+    margin: 0;
+    padding: 0.5rem;
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 0px;
     right: 0;
     background-color: #333;
-    width: 10%;
+
   }
 
   .NavLinks.show {
     display: flex;
-    background-color: rgb(113, 89, 135);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 95%;
+    height: 98%;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+  }
+
+  
+    
+    
+  
+  .NavLinks button.bt {
+    margin-top: 2rem;
+    font-size: 1.2rem; 
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+  }
+  .NavLinks button.btClose{
+
+    color: whitesmoke;
+    padding-left: 580%;
+    padding-top: 30%;
   }
 }
