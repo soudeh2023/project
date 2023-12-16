@@ -1,13 +1,9 @@
 import React from 'react'
 
-function Warenkorb() {
-  JSON.parse()
-localStorage.getItem("warenKorb")
- 
+function WarenKorb() {
   return (
-    <div>Warenkorb</div>
-    
+    <div>WarenKorb</div>
   )
 }
 
-export default Warenkorb
+export default WarenKorb
