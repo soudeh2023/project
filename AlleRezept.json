@@ -45,7 +45,7 @@
     {
       "id": 4,
       "category": "Meer",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Garnelen-Kartoffelstampf.jpg",
       "name": "Garnelen-Kartoffelstampf",
       "ingredients": ["Garnelen", "Kartoffeln", "Erbsen", "Möhren", "Ghee"],
       "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Erbsen, Möhren vermengen. Mit etwas Ghee verfeinern."
@@ -54,7 +54,7 @@
       "id": 5,
       "category": "Meer",
       "name": "Lachs-Brokkoli-Püree",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Lachs-Brokkoli-Püree.jpg",
       "ingredients": ["Lachsfilet", "Brokkoli", "Kartoffel", "Möhre", "Rapsöl"],
       "instructions": "Gedämpftes Lachsfilet und Gemüse (Brokkoli, Kartoffel, Möhre) pürieren. Mit etwas Rapsöl vermengen."
     },
@@ -62,7 +62,7 @@
       "id": 6,
       "category": "Meer",
       "name": "Thunfisch-Kartoffel-Bällchen",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/k.jpg",
       "ingredients": [
         "Thunfisch in Wasser",
         "Kartoffeln",
@@ -75,7 +75,7 @@
     {
       "id": 7,
       "category": "Meer",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Forellen-Gemüsebrei.jpg",
       "name": "Forellen-Gemüsebrei",
       "ingredients": [
         "Forellenfilet",
@@ -90,7 +90,7 @@
       "id": 8,
       "category": "Meer",
       "name": "Garnelen-Milchreis",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Garnelen-Milchreis.jpg",
       "ingredients": ["Garnelen", "Milchreis", "Erbsen", "Mais", "Kokosmilch"],
       "instructions": "Gekochte Garnelen mit gekochtem Milchreis, Erbsen, Mais vermengen. Kokosmilch hinzufügen."
     },
@@ -98,7 +98,7 @@
       "id": 9,
       "category": "Meer",
       "name": "Lachs-Gemüsestampf",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Lachs-Gemüsestampf.jpg",
       "ingredients": [
         "Lachsfilet",
         "Kartoffeln",
@@ -111,8 +111,8 @@
     {
       "id": 10,
       "category": "Meer",
-      "image_url": "/images/2.jpg",
-      "name": "Thunfisch-Spinat-Risotto",
+      "image_url": "/images/thon.jpg",
+      "name": "Lachs-Gemüsestampf",
       "ingredients": [
         "Thunfisch in Wasser",
         "Spinat",
@@ -126,7 +126,7 @@
       "id": 11,
       "category": "Meer",
       "name": "Forellen-Avocado-Creme",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Forellen-Avocado-Creme.jpg",
       "ingredients": [
         "Forellenfilet",
         "Avocado",
@@ -140,7 +140,7 @@
       "id": 12,
       "category": "Meer",
       "name": "Garnelen-Kartoffelbrei",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Garnelen-Kartoffelbrei.jpg",
       "ingredients": ["Garnelen", "Kartoffeln", "Karotte", "Erbsen", "Rapsöl"],
       "instructions": "Gekochte Garnelen mit gestampften Kartoffeln, Karotte, Erbsen vermengen. Mit etwas Rapsöl verfeinern."
     },
@@ -148,7 +148,7 @@
       "id": 13,
       "category": "Meer",
       "name": "Lachs-Spinat-Püree",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Lachs-Spinat-Püree.jpg",
       "ingredients": [
         "Lachsfilet",
         "Spinat",
@@ -162,7 +162,7 @@
       "id": 14,
       "category": "Meer",
       "name": "Thunfisch-Mais-Brei",
-      "image_url": "/images/2.jpg",
+      "image_url": "/images/Thunfisch-Mais-Brei.jpg",
       "ingredients": [
         "Thunfisch in Wasser",
         "Mais",

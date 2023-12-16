@@ -11,7 +11,20 @@ function ErnährungsPlanPage() {
   let AlleRezept = Reciept.Reciept;
   console.log(AlleRezept);
   const [filter, setFilter] = useState([]);
+  const [likedItems, setLikedItems] = useState([]);
 
+
+
+  const handleLikeClick = (itemId) => {
+    // Toggle the like status for the clicked item
+    if (likedItems.includes(itemId)) {
+      console.log("Item is already liked. Removing from likedItems.");
+      setLikedItems(likedItems.filter((id) => id !== itemId));
+    } else {
+      console.log("Item is not liked. Adding to likedItems.");
+      setLikedItems([...likedItems, itemId]);
+    }
+  };
   AlleRezept = AlleRezept.filter((item) => item.category.includes(filter));
 
   return (
@@ -42,8 +55,15 @@ function ErnährungsPlanPage() {
             <li>{item.ingredients}</li>
             <li>{item.instructions}</li>
 
-            <button className="Heartzbt">
-              <FavoriteBorderOutlinedIcon />
+            <button
+              className="Heartzbt"
+              onClick={() => handleLikeClick(item.id)}
+            >
+              {likedItems.includes(item.id) ? (
+                <FavoriteBorderOutlinedIcon style={{ color: 'red' }} />
+              ) : (
+                <FavoriteBorderOutlinedIcon />
+              )}
             </button>
           </div>
         ))}

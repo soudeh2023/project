@@ -28,21 +28,24 @@
 }
 .KarteRezept {
   width: 17.8rem;
-  height: 20.5rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  height: 22.9rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-top: 0;
   margin: 0.5rem;
   background-color: rgba(113, 89, 135, 0.499);
   color: whitesmoke;
   border: 2px solid darkgray;
   border-radius: 0.5rem;
+  list-style: none;
+  line-height: 1.5rem;
 }
 .Heartzbt {
   background-color: transparent;
   margin-top: 0.2rem;
   width: 2rem;
   height: 2rem;
+  padding: 0.2rem;
 }
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);
