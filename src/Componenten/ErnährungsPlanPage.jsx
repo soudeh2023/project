@@ -36,7 +36,7 @@ function ErnährungsPlanPage() {
           <div
             className="Karte"
             key={item.id}
-            onClick={() => setFilter([item.category])}
+            onClick={() => setFilter(item.category)}
           >
             <li>{item.description}</li>
             <img className="Product-picture" src={item.image_url} alt="" />
@@ -44,6 +44,7 @@ function ErnährungsPlanPage() {
           </div>
         ))}
       </div>
+      <button  onClick={() => setFilter("")}>Fillter zurücksetzen</button>
       <h1 className="AlleReciept">Alle Rezept</h1>
       <div className="Rezept-Container">
         {AlleRezept.map((item) => (
