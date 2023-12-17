@@ -168,4 +168,20 @@ element.style {
     padding-left: 58%;
     padding-top: 30%;
   }
+  .Navbar-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left:0;
+    padding: 0;
+  
+  
+  }
+  .Navbar-logo {
+    display: none;
+    /* align-items: center;
+    text-decoration: none;
+    color: #333;
+    size: 1rem; */
+  
 }

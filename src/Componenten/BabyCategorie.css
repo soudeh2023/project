@@ -42,3 +42,26 @@
   border-radius: 0.5rem;
   color: rgba(54, 5, 60, 0.618);
 }
+@media screen and (max-width: 768px){
+  .ContainerBt{
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0;
+    padding: 2rem;
+  }
+  .BabyCategorieContainer{
+    padding: 0;
+    margin:8px;
+  }
+.BabyCategorieDiv{
+  padding: 0;
+  margin: 10px;
+}
+.LinkNächst {
+  color: rgba(113, 89, 135, 0.499);
+  display: flex;
+  gap: 75%;
+  padding-left: 0.5%;
+  margin-right: 0.5%;
+}
+}
