@@ -7,17 +7,16 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import "./PageHome.css";
 
 function PageHome() {
-  const [imageSrc, setImageSrc] = useState("./images/weinachten.jpg");
+  const [imageSrc, setImageSrc] = useState("images/weinachten.jpg");
   // const changeImage = (newImageSrc) => {
   //   setImageSrc(newImageSrc);
   // };
-  
+
   const changeImage = (newImageSrc) => {
     console.log("Changing image to:", newImageSrc);
     setImageSrc(newImageSrc);
   };
-  
-  
+
   return (
     <div className="HomepegeDiv">
       <section>
@@ -60,23 +59,26 @@ function PageHome() {
           Daher ist es ratsam, mit einem Kinderarzt oder Ernährungsspezialisten
           zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres
           Kindes den spezifischen Anforderungen entspricht.
-        </p><br/>
+        </p>
+        <br />
         {/* <Diversity1TwoToneIcon className="HearzIcon" />
         <Face4TwoToneIcon />
         <FaceTwoToneIcon /> */}
 
+        <div className="winAchten">
+          {/* <img src="./images/weinachten.jpg" className="winachtenImg" alt="" /> */}
 
-        <div className="weinAchten">
-
-        <img  src="./images/weinachten.jpg" className="winachtenImg" alt="" />
-        
-        <div className="imageButtons">
-          <button onClick={() => changeImage("../.images/weinachten.jpg")}>Button 1</button>
-          <button onClick={() => changeImage("/images/Apfel-Zimt Brei.jpg")}>Button 2</button>
-          <button onClick={() => changeImage("../..images/weinachten.jpg")}>Button 3</button>
-        </div>
-        
-        
+          <div className="imageButtons">
+            <button onClick={() => changeImage("/images/ariana.jpg")}>
+              Button 1
+            </button>
+            <button onClick={() => changeImage("./project/public/images/arianamilchschake.jpg")}>
+              Button 2
+            </button>
+            <button onClick={() => changeImage("/images/weinachten.jpg")}>
+              Button 3
+            </button>
+          </div>
         </div>
         <Link to="/BabyCategorie" className="BabyCategorieLink">
           Nächst
@@ -96,7 +98,7 @@ function PageHome() {
           Kinder weltweit zu fördern.
         </p>
         <PointOfSaleIcon />
-        
+
         <h5>017683354977</h5>
         <h5>089683354977</h5>
         <h5>soodeh.safahani@gmail.com</h5>
