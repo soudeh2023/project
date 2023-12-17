@@ -19,7 +19,7 @@ function FertigEssen() {
 
   return (
     <div>
-      <h1>Fertig Essen sind Gesund oder.....</h1>
+      <h1>Fertigessen ist gesund oder.....</h1>
       <p className="FertidEssenPar">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit
         maiores corporis animi, alias quos atque cumque aliquam deleniti est
@@ -30,7 +30,7 @@ function FertigEssen() {
         aspernatur.
       </p>
       <div className="meinListFertigEssen">
-        <h1 className="ProductenTitle">Producten</h1>
+        <h1 className="ProductenTitle">Produkte</h1>
         {/* <p>Waren Korb:{cart.length}</p> */}
 
         <ul className="alleFertigEssen">
