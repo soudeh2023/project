@@ -19,6 +19,20 @@
   color: rgb(113, 89, 135);
 }
 
+.PageHomepar, .aboutUs {
+  text-align: justify;
+  padding:0 4rem;
+  line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 0;
+}
+.winAchten{
+margin-top: 0;
+padding-top: 0;
+}
+
+
 
 .aboutUs {
   text-align: center;
