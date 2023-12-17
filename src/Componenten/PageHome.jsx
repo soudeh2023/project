@@ -5,7 +5,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 
 import "./PageHome.css";
 function PageHome() {
-  const [imageSrc, setImageSrc] = useState("/images/weinachten.jpg");
+  const [imageSrc, setImageSrc] = useState("/images/fleich.jpg");
   // const changeImage = (newImageSrc) => {
   //   setImageSrc(newImageSrc);
   // };
@@ -47,9 +47,9 @@ function PageHome() {
         <img  src={imageSrc} className="winachtenImg" alt="" />
         
         <div className="imageButtons">
-          <button onClick={() => changeImage("/images/weinachten.jpg")} className="punktBt"><CircleIcon /></button>
-          <button onClick={() => changeImage("/images/Apfel-Zimt Brei.jpg")} className="punktBt"><CircleIcon /></button>
-          <button onClick={() => changeImage("/images/weinachten.jpg")} className="punktBt"><CircleIcon /></button>
+          <button onClick={() => changeImage("/images/weinaxhten2.jpg")} className="punktBt"><CircleIcon /></button>
+          <button onClick={() => changeImage("/images/ariana.jpg")} className="punktBt"><CircleIcon /></button>
+          <button onClick={() => changeImage("/images/arianamilchschake.jpg")} className="punktBt"><CircleIcon /></button>
         </div>
         
         
