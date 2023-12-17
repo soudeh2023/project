@@ -57,3 +57,18 @@ margin-bottom: 1rem;
 }
 .EndeNächst{  color: beige;
 }
+@media screen and (max-width: 768px){
+  .ContactPar{
+
+  }
+  .BodyContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+  
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+    align-items: center;
+}}
