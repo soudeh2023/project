@@ -10,12 +10,12 @@ function FertigEssen() {
   const [cart, setCart] = useState([]);
   
   
-  const handleBuyIcon = (id) => {
-    setCart([...cart, id]);
-    console.log("Buy icon clicked!" + id);
-    console.log(cart);
-    localStorage.setItem("warenKorb", JSON.stringify(cart));
-  };
+  // const handleBuyIcon = (id) => {
+  //   setCart([...cart, id]);
+  //   console.log("Buy icon clicked!" + id);
+  //   console.log(cart);
+  //   localStorage.setItem("warenKorb", JSON.stringify(cart));
+  // };
 
   return (
     <div>
@@ -31,7 +31,7 @@ function FertigEssen() {
       </p>
       <div className="meinListFertigEssen">
         <h1 className="ProductenTitle">Producten</h1>
-        <p>Waren Korb:{cart.length}</p>
+        {/* <p>Waren Korb:{cart.length}</p> */}
 
         <ul className="alleFertigEssen">
           {data2.map((item) => (
@@ -40,12 +40,12 @@ function FertigEssen() {
               <img className="Product-pictureFer" src={item.image_url} alt="" />
               <li>{item.description}</li>
 
-              <button
+              {/* <button
                 className="WarenkorbIconFertigEssen" 
                 onClick={() => handleBuyIcon(item.id)}
               >
                 <ShoppingCartIcon />
-              </button>
+              </button> */}
             </div>
             
           ))}

@@ -62,12 +62,7 @@ function Navbar() {
             <button className="bt">Reciept</button>
           </Link>
         </p>
-        
-        <p>
-          <Link to="/Online Rieciept" >
-            <button className="bt" ></button>
-          </Link>
-        </p>
+    
         
 
       </div>

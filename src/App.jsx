@@ -11,8 +11,8 @@ import ErnährungsPlanPage from "./Componenten/ErnährungsPlanPage";
 import EndePage from "./Componenten/EndePage";
 import "./App.css";
 import OnlineReciept from "./Componenten/OnlineReciept";
-import RecipesPage from "./Componenten/RecipesPage";
-import Warenkorb from "./Componenten/Warenkorb";
+
+
 
 function App() {
   return (
@@ -31,8 +31,8 @@ function App() {
           <Route path="/ErnährungsPlanPage/" Component={ErnährungsPlanPage} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
           <Route path="/OnlineReciept/" Component={OnlineReciept} />
-          <Route path="/RecipesPage" component={RecipesPage} />
-          <Route path="/Warenkorb" component={Warenkorb} />
+       
+     
   
         </Routes>
       </BrowserRouter>
