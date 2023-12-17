@@ -40,6 +40,15 @@
   list-style: none;
   line-height: 1.5rem;
 }
+.btAllrezept{
+  font-size: 30;
+  background-color: transparent;
+  border-bottom-color:rgba(113, 89, 135, 0.499);
+  border-radius: 20px;
+  box-sizing: border-box;
+
+ 
+}
 .Heartzbt {
   background-color: transparent;
   margin-top: 0.2rem;

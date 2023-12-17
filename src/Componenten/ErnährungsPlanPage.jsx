@@ -44,8 +44,8 @@ function ErnährungsPlanPage() {
           </div>
         ))}
       </div>
-      <button  onClick={() => setFilter("")}>Fillter zurücksetzen</button>
-      <h1 className="AlleReciept">Alle Rezept</h1>
+      <button  onClick={() => setFilter("")} className="btAllrezept"><h1 className="AlleReciept">Alle Rezept</h1></button>
+
       <div className="Rezept-Container">
         {AlleRezept.map((item) => (
           <div className="KarteRezept" key={item.id}>
