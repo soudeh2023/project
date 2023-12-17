@@ -19,46 +19,27 @@ function PageHome() {
 
   return (
     <div className="HomepegeDiv">
-      <section>
+      <section className="section1">
         <h1 className="PageHomeh1">Kleine Kinder && Gesund Essen</h1>
         <p className="PageHomepar">
-          Die Ernährung von Kindern unter einem Jahr ist von entscheidender
-          Bedeutung, da sie in dieser Phase rapide wachsen und sich entwickeln.
-          Hier sind einige allgemeine Richtlinien für die Ernährung von Kindern
-          unter einem Jahr: Ernährungskategorien: Kinder bis zu einem Jahr
-          können in die folgenden Ernährungskategorien eingeteilt werden:
-          Muttermilch oder Säuglingsnahrung: In den ersten 6 Monaten wird
-          empfohlen, Babys ausschließlich zu stillen oder Säuglingsnahrung zu
-          geben. Muttermilch oder Formeln bieten alle notwendigen Nährstoffe und
-          Antikörper für die Gesundheit und Entwicklung des Babys. Einführung
-          von Beikost: Ab etwa 6 Monaten kann mit der schrittweisen Einführung
-          von Beikost begonnen werden. Beikost umfasst weiche, pürierte oder
-          zerkleinerte Lebensmittel wie Gemüse, Obst, Getreide und Fleisch.
-          Gesunde Ernährung: Eine gesunde Ernährung für Kinder unter einem Jahr
-          sollte Folgendes umfassen: Muttermilch oder Säuglingsnahrung:
-          Muttermilch oder eine geeignete Säuglingsnahrung sollte die
-          Hauptquelle der Ernährung für die ersten 6 Monate sein. Enthält alle
-          notwendigen Nährstoffe und fördert die Immunität. Einführung von
-          Beikost: Gemüse: Karotten, Süßkartoffeln, Erbsen. Obst: Bananen,
-          Avocados, Apfelmus. Getreide: Reis, Haferflocken, Quinoa. Fleisch oder
-          alternative Proteinquellen: Gekochtes Hühnerfleisch, pürierter Fisch,
-          rote Linsen. Vermeiden von Honig und bestimmten Lebensmitteln:
-          Vermeiden Sie Honig vor dem ersten Geburtstag, da er das
-          Botulismusrisiko birgt. Vermeiden Sie allergene Lebensmittel wie
-          Erdnüsse, Eiweiß, Fisch und Meeresfrüchte, bis Ihr Arzt grünes Licht
-          gibt. Stillen und Übergang zu anderen Milchsorten: Die
-          Weltgesundheitsorganisation (WHO) empfiehlt das ausschließliche
-          Stillen für die ersten 6 Monate. Nach den ersten 6 Monaten können Sie
-          schrittweise mit der Einführung von Beikost beginnen, während das
-          Stillen fortgesetzt wird. Vollständiges Stillen kann bis zu 1 Jahr
-          oder länger fortgesetzt werden, solange es sowohl für die Mutter als
-          auch für das Kind passend ist. Ab dem Alter von 1 Jahr können Sie auf
-          Kuhmilch oder geeignete Milchersatzprodukte umsteigen, jedoch in
-          Absprache mit dem Kinderarzt. Es ist wichtig zu beachten, dass
-          individuelle Bedürfnisse und Gesundheitszustände variieren können.
-          Daher ist es ratsam, mit einem Kinderarzt oder Ernährungsspezialisten
-          zusammenzuarbeiten, um sicherzustellen, dass die Ernährung Ihres
-          Kindes den spezifischen Anforderungen entspricht.
+
+          Die Ernährung von Kindern unter einem Jahr ist entscheidend, da sie in
+          dieser Phase schnell wachsen und sich entwickeln. Empfohlene Maßnahmen
+          sind: Muttermilch oder Säuglingsnahrung: In den ersten 6 Monaten wird
+          ausschließliches Stillen oder die Verwendung von Säuglingsnahrung
+          empfohlen. Einführung von Beikost: Ab etwa 6 Monaten können Sie
+          schrittweise mit der Einführung von weichen Lebensmitteln wie Gemüse,
+          Obst, Getreide und Fleisch beginnen. Gesunde Ernährung: Muttermilch
+          oder Säuglingsnahrung sollte Hauptnahrung für die ersten 6 Monate
+          sein. Danach können Sie schrittweise zu festen Lebensmitteln
+          übergehen, darunter Gemüse, Obst, Getreide und Fleisch. Vermeiden von
+          Allergenen: Vermeiden Sie allergene Lebensmittel wie Honig, Erdnüsse
+          und bestimmte Fischsorten vor dem ersten Geburtstag. Stillen und
+          Übergang zu Kuhmilch: Stillen wird bis zu 1 Jahr oder länger
+          empfohlen. Nach einem Jahr können Sie auf Kuhmilch oder
+          Milchersatzprodukte umsteigen, in Absprache mit dem Kinderarzt. Es ist
+          ratsam, individuelle Bedürfnisse mit einem Kinderarzt oder
+          Ernährungsspezialisten zu besprechen.
         </p>
         <br />
         {/* <Diversity1TwoToneIcon className="HearzIcon" />
@@ -66,13 +47,17 @@ function PageHome() {
         <FaceTwoToneIcon /> */}
 
         <div className="winAchten">
-          {/* <img src="./images/weinachten.jpg" className="winachtenImg" alt="" /> */}
+          <img src="./images/weinachten.jpg" className="winachtenImg" alt="" />
 
           <div className="imageButtons">
             <button onClick={() => changeImage("/images/ariana.jpg")}>
               Button 1
             </button>
-            <button onClick={() => changeImage("./project/public/images/arianamilchschake.jpg")}>
+            <button
+              onClick={() =>
+                changeImage("./project/public/images/arianamilchschake.jpg")
+              }
+            >
               Button 2
             </button>
             <button onClick={() => changeImage("/images/weinachten.jpg")}>

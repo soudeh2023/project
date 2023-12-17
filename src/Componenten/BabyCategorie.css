@@ -28,7 +28,8 @@
 .LinkNächst {
   color: rgba(113, 89, 135, 0.499);
   display: flex;
-  gap: 95%;
+  gap: 90%;
+  padding-left: 5%;
 }
 .LinkNächst a {
   text-decoration: none;

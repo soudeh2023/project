@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 25px;
   background-color: rgba(113, 89, 135, 0.692);
   box-shadow: 3px 10px 20px -10px rgb(96, 77, 113);
   height: 80px;
@@ -12,10 +12,9 @@ nav {
   padding: 0;
 }
 
-
 .Navbar-logo {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   text-decoration: none;
   color: #333;
   size: 1rem;
@@ -122,11 +121,14 @@ element.style {
   cursor: pointer;
 }
 
+
 @media screen and (max-width: 768px) {
   .burger-menu {
     display: block;
   }
-
+ 
+   
+  
   .NavLinks {
     margin: 0;
     padding: 0.5rem;
@@ -163,7 +165,7 @@ element.style {
   .NavLinks button.btClose{
 
     color: whitesmoke;
-    padding-left: 580%;
+    padding-left: 58%;
     padding-top: 30%;
   }
 }

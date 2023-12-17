@@ -7,6 +7,9 @@
   margin-bottom: 1rem;
   padding-top: 0;
 }
+.section1{
+  background-image: image(src="./images/weinachten.jpg");
+}
 .PageHomeh1 {
   text-align: center;
 }
