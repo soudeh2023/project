@@ -15,10 +15,16 @@
   padding-top: 0;
   color: rgb(113, 89, 135);
 }
+
+
 .aboutUs {
   text-align: center;
   padding: 4rem;
   line-height: 2rem;
   margin-top: 10rem;
   padding-top: 0;
+}
+@media screen and (max-width: 768px) {
+  .winachtenImg{
+    width:300px;}
 }
