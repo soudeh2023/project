@@ -14,7 +14,11 @@ function Navbar() {
   return (
     <nav>
       <div className="Navbar-logo">
-        <img className="Navbar-picture" src="./images/logo3.jpg" alt="" />
+          <Link to="/BabyCategorie">
+            <img className="Navbar-picture" src="./images/logo3.jpg" alt="" />
+          </Link>
+    
+        {/* <img className="Navbar-picture" src="./images/logo3.jpg" alt="" /> */}
       </div>
 
       <div className="navbar-inner">
