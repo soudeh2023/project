@@ -1,22 +1,20 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-// import Diversity1TwoToneIcon from "@mui/icons-material/Diversity1TwoTone";
-// import Face4TwoToneIcon from "@mui/icons-material/Face4TwoTone";
-// import FaceTwoToneIcon from "@mui/icons-material/FaceTwoTone";
-import "./PageHome.css";
+import CircleIcon from '@mui/icons-material/Circle';
 
+import "./PageHome.css";
 function PageHome() {
-  const [imageSrc, setImageSrc] = useState("images/weinachten.jpg");
+  const [imageSrc, setImageSrc] = useState("/images/weinachten.jpg");
   // const changeImage = (newImageSrc) => {
   //   setImageSrc(newImageSrc);
   // };
-
+  
   const changeImage = (newImageSrc) => {
     console.log("Changing image to:", newImageSrc);
     setImageSrc(newImageSrc);
   };
-
+  
   return (
     <div className="HomepegeDiv">
       <section className="section1">
@@ -42,28 +40,19 @@ function PageHome() {
           Ernährungsspezialisten zu besprechen.
         </p>
         <br />
-        {/* <Diversity1TwoToneIcon className="HearzIcon" />
-        <Face4TwoToneIcon />
-        <FaceTwoToneIcon /> */}
-
-        <div className="winAchten">
-          <img src="./images/weinachten.jpg" className="winachtenImg" alt="" />
-
-          <div className="imageButtons">
-            <button onClick={() => changeImage("/images/ariana.jpg")}>
-              Button 1
-            </button>
-            <button
-              onClick={() =>
-                changeImage("./project/public/images/arianamilchschake.jpg")
-              }
-            >
-              Button 2
-            </button>
-            <button onClick={() => changeImage("/images/weinachten.jpg")}>
-              Button 3
-            </button>
-          </div>
+        
+        <div className="weinAchten">
+​
+        {/* <img  src="./images/weinachten.jpg" className="winachtenImg" alt="" /> */}
+        <img  src={imageSrc} className="winachtenImg" alt="" />
+        
+        <div className="imageButtons">
+          <button onClick={() => changeImage("/images/weinachten.jpg")} className="punktBt"><CircleIcon /></button>
+          <button onClick={() => changeImage("/images/Apfel-Zimt Brei.jpg")} className="punktBt"><CircleIcon /></button>
+          <button onClick={() => changeImage("/images/weinachten.jpg")} className="punktBt"><CircleIcon /></button>
+        </div>
+        
+        
         </div>
         <Link to="/BabyCategorie" className="BabyCategorieLink">
           Nächst
