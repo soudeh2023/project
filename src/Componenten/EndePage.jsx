@@ -38,7 +38,7 @@ function EndePage() {
       
       </div>
       <div className="LinkNächst">
-        <Link  className= "EndeNächst"     to="/OnlineReciept">back</Link>
+        <Link  className= "EndeNächst"     to="/OnlineReciept">Zurük</Link>
       </div>
     </div>
   );

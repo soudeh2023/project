@@ -38,9 +38,9 @@ function ErnährungsPlanPage() {
             key={item.id}
             onClick={() => setFilter(item.category)}
           >
-            <li>{item.description}</li>
+            <p>{item.description}</p>
             <img className="Product-picture" src={item.image_url} alt="" />
-            <li>{item.name}</li>
+            <p>{item.name}</p>
           </div>
         ))}
       </div>
@@ -71,8 +71,8 @@ function ErnährungsPlanPage() {
       </div>
 
       <div className="LinkNächst">
-        <Link to="/BabyCategorie">back</Link>
-        <Link to="/FertigEssen">nächst</Link>
+        <Link to="/BabyCategorie">Zurük</Link>
+        <Link to="/FertigEssen">Nächst</Link>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ function BabyCategorie() {
         </di>
       </div>
       <div className="LinkNächst">
-        <Link to="/PageHome">back</Link>
+        <Link to="/PageHome">Zurük</Link>
         <Link to="/ErnährungsPlanPage ">Nächst</Link>
       </div>
     </div>

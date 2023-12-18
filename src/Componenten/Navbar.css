@@ -1,4 +1,4 @@
-nav {
+.topnav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,12 +7,8 @@ nav {
   box-shadow: 3px 10px 20px -10px rgb(96, 77, 113);
   height: 80px;
 }
-.btClose{color: rgba(113, 89, 135, 0.692);}
-.Navbarpar{
-  margin: 0;
-  padding: 0;
-}
 
+/* Style the logo */
 .Navbar-logo {
   display: flex;
   align-items: center;
@@ -20,51 +16,45 @@ nav {
   color: #333;
   size: 1rem;
 }
-.Navbar-logo:hover{  color: rgb(63, 0, 111); 
+.Navbar-logo:hover {
+  color: rgb(63, 0, 111);
   transform: rotate(-5deg);
   animation: dance 1s ease-in-out;
-
 }
-
-
 .Navbar-picture {
   width: 60px;
   height: 60px;
   border-radius: 25px;
-  margin-left: 50px;
-
-
+  margin-left: .5rem;
 }
-
-
 element.style {
   font-size: 2rem;
 }
 @keyframes dance {
   0% {
-      color: initial;
-      transform: rotate(0deg);
+    color: initial;
+    transform: rotate(0deg);
   }
   25% {
-      color: rgb(227, 136, 245); 
-      transform: rotate(-3deg);
+    color: rgb(227, 136, 245);
+    transform: rotate(-3deg);
   }
   50% {
-      color: rgb(114, 28, 115); 
-      transform: rotate(5deg);
+    color: rgb(114, 28, 115);
+    transform: rotate(5deg);
   }
   75% {
-      color: rgb(63, 0, 111); 
-      transform: rotate(-3deg);
+    color: rgb(63, 0, 111);
+    transform: rotate(-3deg);
   }
   100% {
-      color: initial; /* Original color */
-      transform: rotate(0deg);
+    color: initial; /* Original color */
+    transform: rotate(0deg);
   }
 }
-
 .Navbarpar {
-  display: inline-block;
+  display: inline-block;  
+  margin: 1rem;
   cursor: pointer;
   transition: color 0.3s ease-in-out; /* Add a transition effect for the color */
 }
@@ -72,120 +62,99 @@ element.style {
 .Navbarpar:hover {
   animation: dance 0.8s ease-in-out;
 }
-.bt:hover{
+/* Desktop Menu */
+.menu {
+  margin-left: .5rem;
+  display: none;
+}
+.bt {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* font-size: 0.9rem; */
+  padding: 10px;
+  /* color: rgba(54, 5, 60, 0.403); */
+  /* margin-top: 2rem; */
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+}
+.bt:hover {
   color: bisque;
 }
-.Navbarpar{
+.Navbarpar {
   font-size: 30px;
- color:  rgb(113, 89, 135);
+  color: rgb(113, 89, 135);
 }
 
 .navbar-inner {
   display: flex;
-  
 }
 
-.NavLinks {
-  list-style: none;
-  display: flex;
-  align-items: baseline;
-}
-
-.NavLinks li {
-  position: relative;
- 
-}
-.NavLinks button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 0.9rem;
-  padding: 10px;
-  color: rgba(54, 5, 60, 0.403);
-}
-
-.NavLinks.show {
-  position: absolute;
-  right: 0;
-  width: 25%;
-  border-radius: 1rem;
-}
-
-/* .LogInButton button {
-  display: flex;
+/* Mobile Menu Show & Close buttons */
+.show-mobile-menu-button {
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
-} */
-
-.burger-menu {
-  display: none;
-  font-size: 22px;
+  border: none;
+  background: transparent;
+  font-size: 36px;
   cursor: pointer;
 }
 
-.NavLinks button.btClose {
-  margin-top: 2rem;
-  font-size: 1.2rem; 
-  font-family: 'Times New Roman', Times, serif;
-  color: whitesmoke;
+.close-mobile-menu-button {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
 }
 
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.85);
+  transition: 0.3s;
+}
 
-@media screen and (max-width: 768px) {
-  .burger-menu {
-    display: block;
-    border-bottom-style:none;
-    border-bottom-color: transparent;
+.mobile-menu a {
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 950px) {
+  .topnav {
+    justify-content: space-around;
   }
- 
-   
-  
-  .NavLinks {
-    margin: 0;
-    padding: 0.5rem;
+
+  .show-mobile-menu-button {
     display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    background-color: #333;
-
   }
 
-  .NavLinks.show {
+  .menu {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 95%;
-    height: 98%;
-    margin: 0;
     align-items: center;
-    align-content: center;
   }
-
-    
-    
-  
-  .NavLinks button.bt {
-    margin-top: 2rem;
-    font-size: 1.2rem; 
-    font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
-
-  }
-  .NavLinks button.btClose{
-
-    color: whitesmoke;
-    padding-left: 58%;
-    padding-top: 30%;
-  }
-  .Navbar-picture {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin-left:0;
-    padding: 0;
-  
-  
-  }
-
-  
 }

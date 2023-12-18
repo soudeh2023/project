@@ -39,7 +39,7 @@ function OnlineReciept() {
         </div>
       )}
 
-      <div className="NächstOnlineLink">
+      <div className="LinkNächst">
         <Link to="/FertigEssen">Zurück</Link>
         <Link to="/EndePage">Nächst</Link>
       </div>
